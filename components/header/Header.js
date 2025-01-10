@@ -90,7 +90,7 @@ const Header = (props) => {
                         </ul>
                     </div>
 
-                    <div className="cart-search-contact">
+                    {/*<div className="cart-search-contact">
 
                         <div className="header-search-form-wrapper">
                             <button onClick={() => setMenuState(!menuActive)} className="search-toggle-btn"><i
@@ -152,7 +152,7 @@ const Header = (props) => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>*/}
                 </div>
             </nav>
         </header>
