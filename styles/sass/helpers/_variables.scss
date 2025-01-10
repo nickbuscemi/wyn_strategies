@@ -1,0 +1,34 @@
+/*---------------------------
+	Fonts
+----------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Source+Sans+Pro:400,400i,600');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poiret+One&display=swap');
+
+// fonts
+$base-font-size: 16;
+// $base-font: 'Source Sans Pro', sans-serif; // Original base font
+// $heading-font: 'Lato', sans-serif;        // Original heading font
+
+$base-font: 'EB Garamond', serif;          // New base font
+$heading-font: 'Poiret One', serif;        // New heading font
+
+// colors
+$dark-gray: #2b2e3a; // Keep this for darker text
+$white: #fff; // Standard white
+$black: #000; // Standard black
+$mid-gray: #7e8690; // Keep for subtle gray text if needed
+
+// Replacing palette colors
+$neutral-light: #EDEDE9; // Light neutral (backgrounds, sections)
+$accent-1: #D6CCC2; // Primary accent
+$accent-2: #F5EBE0; // Secondary accent
+$accent-3: #E3D5CA; // Highlight or borders
+$accent-4: #D5BDAF; // Additional contrast color
+$green: #87d271; // Retain green for success messages
+
+// Updating theme-specific colors
+$theme-primary-color: $accent-1; // Primary theme color
+$body-bg-color: $neutral-light; // Body background
+$section-bg-color: $neutral-light; // Section background
+$text-color: $dark-gray; // Primary text color
+$heading-color: $accent-4; // Use accent-4 for headings
