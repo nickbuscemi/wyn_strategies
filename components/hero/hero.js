@@ -24,10 +24,14 @@ const Hero = () => {
                     <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'/images/slider/slide-1.jpg'})` }}>
                         <div className="container">
                             <div className="slide-title">
-                                <h2>Normal sleeps, super dreams</h2>
+                                <h2>Strategic Marketing Strategies</h2>
                             </div>
                             <div className="slide-text">
-                                <p>Raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                <p>With over 25
+years of experience in
+provider contracting,
+network management, and
+strategic planning. </p>
                             </div>
                             <div className="clearfix"></div>
                             <div className="slide-btns">

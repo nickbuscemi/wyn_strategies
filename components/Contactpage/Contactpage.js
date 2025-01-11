@@ -10,9 +10,9 @@ const Contactpage = () => {
                 <div className="row justify-content-center">
                     <div className="col col-lg-8">
                         <div className="section-title-s3">
-                            <span>Contact us</span>
-                            <h2>Drop us a line</h2>
-                            <p>Pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. "What's happened to me?" he thought</p>
+                            <span>Contact</span>
+                            <h2>Get in touch</h2>
+                            <p>Tell us more about what you are looking for and we will reach out shortly!</p>
                         </div>
                     </div>
                 </div>
@@ -27,21 +27,21 @@ const Contactpage = () => {
                                     <i className="ti-email"></i>
                                 </div>
                                 <h5>Email</h5>
-                                <p>emailexample@demo.com</p>
+                                <p>mjsutherland703@gmail.com</p>
                             </div>
                             <div>
                                 <div className="icon">
                                     <i className="ti-mobile"></i>
                                 </div>
                                 <h5>Phone</h5>
-                                <p>32415(12456)2453</p>
+                                <p>+1 (516) 310-4738</p>
                             </div>
                             <div>
                                 <div className="icon">
                                     <i className="ti-location-arrow"></i>
                                 </div>
                                 <h5>Address</h5>
-                                <p>emotion street melbordl Astralia</p>
+                                <p>1 Sequams Ln E, West Islip, NY 11111</p>
                             </div>
                         </div>
 

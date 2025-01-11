@@ -15,8 +15,8 @@ const ServiceSection = () => {
                     <div className="col col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                         <div className="section-title-s3">
                             <span>Services</span>
-                            <h2>Best services</h2>
-                            <p>Showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look </p>
+                            <h2>For your Practice</h2>
+                            <p>Our branding & rebranding services are designed to breathe new life into your business, ensuring your brand is relevant and compelling in a constantly evolving and often saturated market. A successful rebrand goes beyond just changing a logo or color scheme; it involves a comprehensive transformation that reflects your practice values, vision, and goals.</p>
                         </div>
                     </div>
                 </div>

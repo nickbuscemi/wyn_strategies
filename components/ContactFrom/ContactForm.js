@@ -23,21 +23,53 @@ const ContactForm = () => {
         }
     };
 
-    const submitHandler = e => {
+    const submitHandler = async (e) => {
         e.preventDefault();
+      
         if (validator.allValid()) {
-            validator.hideMessages();
-            setForms({
+          validator.hideMessages();
+      
+          try {
+            // Send the form data to your backend
+            const response = await fetch('http://localhost:4000/api/contact', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(forms), // Send the 'forms' state as JSON
+            });
+      
+            if (response.ok) {
+              // If successful, you can parse the JSON response (optional)
+              const data = await response.json();
+              console.log('Response from server:', data);
+      
+              // Reset the form fields
+              setForms({
                 name: '',
                 email: '',
                 subject: '',
                 phone: '',
                 message: ''
-            })
+              });
+      
+              // Optionally show a success message to the user
+              alert('Form submitted successfully!');
+            } else {
+              // If server responded with a non-OK status
+              const errorData = await response.json();
+              console.log('Error response:', errorData);
+              alert('Error submitting form: ' + (errorData.msg || 'Unknown error'));
+            }
+          } catch (error) {
+            // Network or other errors
+            console.error('Fetch error:', error);
+            alert('Could not submit the form. Please try again later.');
+          }
         } else {
-            validator.showMessages();
+          // If client-side validation fails
+          validator.showMessages();
         }
-    };
+      };
+      
 
     return (
         <form onSubmit={(e) => submitHandler(e)} className="contact-validation-active" >
@@ -90,6 +122,8 @@ const ContactForm = () => {
                             <option>Tax Management</option>
                             <option>Financial Advices</option>
                             <option>Risk Management</option>
+                            <option>Financial Advices</option>
+                            <option>Risk Management</option>
                         </select>
                         {validator.message('subject', forms.subject, 'required')}
                     </div>
@@ -107,7 +141,7 @@ const ContactForm = () => {
                 </div>
                 <div className="col col-lg-12 col-12">
                     <div className="submit-area">
-                        <button type="submit" className="theme-btn">Submit Now</button>
+                        <button type="submit" className="theme-btn">Submit</button>
                     </div>
                 </div>
             </div>
