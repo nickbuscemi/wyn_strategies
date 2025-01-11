@@ -2,7 +2,7 @@ import React from 'react'
 
 const Features = (props) => {
     return (
-        <section className="features-section">
+        <section className="features-section animate__animated animate__fadeInUp animate__slow">
             <div className="container">
                 <div className="row">
                     <div className="col col-xs-12">
