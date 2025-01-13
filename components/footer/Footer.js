@@ -22,7 +22,6 @@ const Footer = (props) => {
                                 <div className="logo widget-title">
                                     <Image src={Logo} alt="" />
                                 </div>
-                                <p>Samsa was a travelling salesman  and above it there hung a picture that he had recently cut out of an illustrated magazine and housed</p>
                             </div>
                         </div>
                         <div className="col col-lg-3 col-md-6 col-12">
@@ -31,16 +30,14 @@ const Footer = (props) => {
                                     <h3>Navigation</h3>
                                 </div>
                                 <ul>
-                                    <li><Link onClick={ClickHandler} href="/about">About us</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/contact">Contact us</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/services">Case Studies</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/services">Our Services</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/">Home</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/about">About</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/blog">Blog</Link></li>
                                 </ul>
                                 <ul>
-                                    <li><Link onClick={ClickHandler} href="/contact">Provacu Policy</Link></li>
                                     <li><Link onClick={ClickHandler} href="/contact">Contact</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/testimonials">Testimonials</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/blog">News</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/projects">Projects</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/services">Services</Link></li>
                                 </ul>
                             </div>
                         </div>

@@ -104,7 +104,7 @@ const BlogSingle = (props) => {
                                         <li className="comment even thread-even depth-1" id="comment-1">
                                             <div id="div-comment-1">
                                                 <div className="comment-theme">
-                                                    <div className="comment-image"><Image src={blog3} alt="" /></div>
+                                                 <div className="comment-image"><Image src={blog3} alt="" /></div>
                                                 </div>
                                                 <div className="comment-main-area">
                                                     <div className="comment-wrapper">

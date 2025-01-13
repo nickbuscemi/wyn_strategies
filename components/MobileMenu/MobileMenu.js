@@ -5,38 +5,7 @@ import Collapse from "@mui/material/Collapse";
 import Link from "next/link";
 
 const menus = [
-    {
-        id: 1,
-        title: 'Home',
-        link: '/home',
-        submenu: [
-            {
-                id: 11,
-                title: 'Home Default',
-                link: '/home'
-            },
-            {
-                id: 12,
-                title: 'Home style 2',
-                link: '/home-2'
-            },
-            {
-                id: 13,
-                title: 'Home style 3',
-                link: '/home-3'
-            },
-            {
-                id: 14,
-                title: 'Home static hero',
-                link: '/home-4'
-            },
-            {
-                id: 15,
-                title: 'Home static hero box',
-                link: '/home-5'
-            },
-        ]
-    },
+
 
     {
         id: 3,
@@ -49,11 +18,6 @@ const menus = [
                 link: '/about'
             },
             {
-                id: 3222,
-                title: 'Contact',
-                link: '/contact'
-            },
-            {
                 id: 322,
                 title: 'Testimonials',
                 link: '/testimonials'
@@ -62,53 +26,16 @@ const menus = [
                 id: 34,
                 title: 'Team',
                 link: '/team'
-            },
-            {
-                id: 3454,
-                title: 'Team Single',
-                link: '/team-single/Morkal-Akunda'
-            },
-            {
-                id: 36,
-                title: '404',
-                link: '/404'
             }
+            
         ]
     },
-    {
-        id: 4,
-        title: 'Shop',
-        link: '/shop',
-        submenu: [
-            {
-                id: 41,
-                title: 'Shop',
-                link: '/shop',
-            },
-            {
-                id: 42,
-                title: 'Shop Single',
-                link: '/product-single/Blue-Striped-Shoes'
-            },
-            {
-                id: 43,
-                title: 'Cart',
-                link: '/cart'
-            },
-            {
-                id: 44,
-                title: 'Checkout',
-                link: '/checkout'
-            },
-        ]
-    },
-
     {
         id: 6,
         title: 'Services',
         link: '/services',
         submenu: [
-            {
+            /*{
                 id: 61,
                 title: 'Services',
                 link: '/services',
@@ -122,7 +49,7 @@ const menus = [
                 id: 625,
                 title: 'Service Style 3',
                 link: '/service-s3'
-            },
+            },*/
             {
                 id: 63,
                 title: 'Market Research',
@@ -150,11 +77,39 @@ const menus = [
             },
         ]
     },
+    /*{
+        id: 4,
+        title: 'Shop',
+        link: '/shop',
+        submenu: [
+            {
+                id: 41,
+                title: 'Shop',
+                link: '/shop',
+            },
+            {
+                id: 42,
+                title: 'Shop Single',
+                link: '/product-single/Blue-Striped-Shoes'
+            },
+            {
+                id: 43,
+                title: 'Cart',
+                link: '/cart'
+            },
+            {
+                id: 44,
+                title: 'Checkout',
+                link: '/checkout'
+            },
+        ]
+    },*/
+
     {
         id: 7,
         title: 'Projects',
         link: '/projects',
-        submenu: [
+        /*submenu: [
             {
                 id: 71,
                 title: 'Projects',
@@ -170,14 +125,14 @@ const menus = [
                 title: 'Project single',
                 link: '/project-single/Market-Research'
             },
-        ]
+        ]*/
     },
 
     {
         id: 5,
         title: 'Blog',
         link: '/blog',
-        submenu: [
+        /*submenu: [
             {
                 id: 51,
                 title: 'Blog',
@@ -208,12 +163,44 @@ const menus = [
                 title: 'Blog single full width',
                 link: '/blog-single-fullwidth/Consulting-Success-is-the-most-comprehensive-learning'
             },
-        ]
+        ]*/
     },
     {
         id: 88,
         title: 'Contact',
         link: '/contact',
+    },
+    {
+        id: 1,
+        title: 'Home',
+        link: '/home',
+        /*submenu: [
+            {
+                id: 11,
+                title: 'Home Default',
+                link: '/home'
+            },
+            {
+                id: 12,
+                title: 'Home style 2',
+                link: '/home-2'
+            },
+            {
+                id: 13,
+                title: 'Home style 3',
+                link: '/home-3'
+            },
+            {
+                id: 14,
+                title: 'Home static hero',
+                link: '/home-4'
+            },
+            {
+                id: 15,
+                title: 'Home static hero box',
+                link: '/home-5'
+            },
+        ]*/
     }
 
 

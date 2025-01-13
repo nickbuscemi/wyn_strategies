@@ -38,10 +38,10 @@ const Header = (props) => {
                                 <Link onClick={ClickHandler} href="/">Pages</Link>
                                 <ul className="sub-menu">
                                     <li><Link onClick={ClickHandler} href="/about">About</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/contact">Contact</Link></li>
                                     <li><Link onClick={ClickHandler} href="/testimonials">Testimonials</Link></li>
                                     <li><Link onClick={ClickHandler} href="/team">Team</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/team-single/Morkal-Akunda">Team Single</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/contact">Contact</Link></li>
+                                    {/*<li><Link onClick={ClickHandler} href="/team-single/Morkal-Akunda">Team Single</Link></li>*/}
                                     {/*<li><Link onClick={ClickHandler} href="/404">404</Link></li>*/}
                                     {/*<li className="menu-item-has-children">
                                         <Link onClick={ClickHandler} href="/">Shop</Link>
@@ -68,13 +68,13 @@ const Header = (props) => {
                                     <li><Link onClick={ClickHandler} href="/service-single/Sustainability">Sustainability</Link></li>
                                 </ul>
                             </li>
-                            <li className="menu-item-has-children">
+                            <li className="menu-item">
                                 <Link onClick={ClickHandler} href="/projects">Projects</Link>
-                                <ul className="sub-menu">
+                                {/*<ul className="sub-menu">
                                     <li><Link onClick={ClickHandler} href="/projects">Projects</Link></li>
                                     <li><Link onClick={ClickHandler} href="/projects-s2">Projects style 2</Link></li>
                                     <li><Link onClick={ClickHandler} href="/project-single/Market-Research">Project single</Link></li>
-                                </ul>
+                                </ul>*/}
                             </li>
                             <li className="menu-item">
                                 <Link onClick={ClickHandler} href="/blog">Blog</Link>
