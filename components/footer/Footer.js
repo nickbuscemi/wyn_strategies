@@ -77,7 +77,7 @@ const Footer = (props) => {
                     <div className="row">
                         <div className="separator"></div>
                         <div className="col col-xs-12">
-                            <p className="copyright">Copyright &copy; 2023 Jhair. All rights reserved.</p>
+                            <p className="copyright">Copyright &copy; 2025 Wyn Strategies Inc. All rights reserved.</p>
                             <div className="social-icons">
                                 <ul>
                                     <li><Link onClick={ClickHandler} href="/"><i className="ti-facebook"></i></Link></li>

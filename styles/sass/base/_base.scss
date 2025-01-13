@@ -3,11 +3,18 @@
 --------------------------------------------------------------*/
 html {
     font-size: $base-font-size + px;
+    
 }
 
+/* {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  } */
 :root {
     scroll-behavior: unset;
 }
+
 
 body {
     font-family: $base-font;

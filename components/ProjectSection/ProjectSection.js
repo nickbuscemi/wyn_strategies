@@ -21,7 +21,7 @@ const settings = {
             settings: {
                 slidesToShow: 3,
                 slidesToScroll: 1,
-                infinite: true,
+                infinite: false,
             }
         },
         {
@@ -29,7 +29,7 @@ const settings = {
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 1,
-                infinite: true,
+                infinite: false,
             }
         },
         {
@@ -37,7 +37,7 @@ const settings = {
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 1,
-                infinite: true,
+                infinite: false,
             }
         },
         {
