@@ -20,7 +20,7 @@ const Footer = (props) => {
                         <div className="col col-lg-3 col-md-6 col-12">
                             <div className="widget about-widget">
                                 <div className="logo widget-title">
-                                    <Image src={Logo} alt="" />
+                                    <Image src={Logo} alt="logo" />
                                 </div>
                             </div>
                         </div>
@@ -47,9 +47,9 @@ const Footer = (props) => {
                                     <h3>Contact Info</h3>
                                 </div>
                                 <ul>
-                                    <li>Phone: ++87655285654 </li>
-                                    <li>Email: jhair@demo.com</li>
-                                    <li>Office Time: 10AM- 5PM</li>
+                                    <li>Phone: +1 (516) 310-4738</li>
+                                    <li>Email: mjsutherland703@gmail.com</li>
+                                    <li>Office Time: 9AM- 5PM</li>
                                 </ul>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ const Footer = (props) => {
                                 <div className="widget-title">
                                     <h3>Newsletter</h3>
                                 </div>
-                                <p>You will be notified when somthing new will be appear.</p>
+                                <p>Stay in the loop with our monthly newsletter.</p>
                                 <form onSubmit={SubmitHandler}>
                                     <div className="input-1">
                                         <input type="email" className="form-control" placeholder="Email Address *" required/>
