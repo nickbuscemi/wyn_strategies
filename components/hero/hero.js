@@ -28,10 +28,11 @@ const Hero = () => {
                             </div>
                             <div className="slide-text">
                                 <p>With over 25
-years of experience in
-provider contracting,
-network management, and
-strategic planning. </p>
+                                    years of experience in
+                                    provider contracting,
+                                    network management, and
+                                    strategic planning. 
+                                </p>
                             </div>
                             <div className="clearfix"></div>
                             <div className="slide-btns">
