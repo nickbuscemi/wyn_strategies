@@ -57,17 +57,44 @@ const Header = (props) => {
                             <li className="menu-item-has-children">
                                 <Link onClick={ClickHandler} href="/services">Services</Link>
                                 <ul className="sub-menu">
-                                    {/*<li><Link onClick={ClickHandler} href="/services">Service style 1</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/services-s2">Service style 2</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/service-s3">Service style 3</Link></li>*/}
-                                    <li><Link onClick={ClickHandler} href="/service-single/Market-Research">Market Research</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/service-single/Corporate-Finance">Corporate Finance</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/service-single/Advanced-Analytics">Advance Analytics</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/service-single/Change-Management">Change Management</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/service-single/Strategy-Marketing">Stragegy & Marketing</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/service-single/Sustainability">Sustainability</Link></li>
+                                    <li>
+                                        <Link onClick={ClickHandler} href="/service-single/branding-rebranding">
+                                            Branding & Rebranding
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link onClick={ClickHandler} href="/service-single/website-development-online-presence">
+                                            Website Development & Online Presence
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link onClick={ClickHandler} href="/service-single/social-media">
+                                            Social Media
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link onClick={ClickHandler} href="/service-single/business-to-business">
+                                            Business to Business
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link onClick={ClickHandler} href="/service-single/other-marketing-services">
+                                            Other Relevant Marketing Services
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link onClick={ClickHandler} href="/service-single/video-production">
+                                            Video Production
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link onClick={ClickHandler} href="/service-single/contract-consulting">
+                                            Contract Consulting
+                                        </Link>
+                                    </li>
                                 </ul>
                             </li>
+
                             <li className="menu-item">
                                 <Link onClick={ClickHandler} href="/projects">Projects</Link>
                                 {/*<ul className="sub-menu">

@@ -25,6 +25,9 @@ const ServiceSinglePage = (props) => {
     const router = useRouter()
 
     const ServiceDetails = Services.find(item => item.slug === router.query.slug)
+    const AdditionalContent = ServiceDetails?.additionalContent
+    const Features = ServiceDetails?.features
+    const ServiceTabs = ServiceDetails?.serviceTabs
 
     return (
         <Fragment>
@@ -39,24 +42,35 @@ const ServiceSinglePage = (props) => {
                                 <div className="service-pic">
                                     <Image src={ServiceDetails?.sImg} alt="" />
                                 </div>
-                                <h2>Market Research service</h2>
-                                <p>It wasn't a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. Drops</p>
-                                <p>Peacefully between its four familiar walls. A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady fitted out with a fur hat and fur boa who sat upright</p>
+                                <h2>{AdditionalContent?.[0].title1}</h2>                                
+                                <p>{AdditionalContent?.[0].paragraph}</p>
+                                <p>{AdditionalContent?.[0].subParagraph}</p>
+                                <h3>{AdditionalContent?.[1].title2}</h3>
+                                <p>{AdditionalContent?.[1].paragraph}</p>
+                                {ServiceDetails?.features && ServiceDetails.features.length > 0 && (
+                                    <div className="service-features">
+                                        {/* First half of the features */}
+                                        <ul>
+                                        {ServiceDetails.features.slice(0, 3).map((feature, index) => (
+                                            <li key={index}>
+                                            <i className="ti-check-box"></i>
+                                            {feature}
+                                            </li>
+                                        ))}
+                                        </ul>
 
-                                <h3>Magazine and housed in a nice, gilded frame</h3>
-                                <p>Peacefully between its four familiar walls. A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut</p>
-                                <div className="service-features">
-                                    <ul>
-                                        <li><i className="ti-check-box"></i>Towards the viewer gregor then turned</li>
-                                        <li><i className="ti-check-box"></i>Showed a lady fitted out with a fur hat and</li>
-                                        <li><i className="ti-check-box"></i>Turned to look out the window</li>
-                                    </ul>
-                                    <ul>
-                                        <li><i className="ti-check-box"></i>Towards the viewer gregor then turned</li>
-                                        <li><i className="ti-check-box"></i>Showed a lady fitted out with a fur hat and</li>
-                                        <li><i className="ti-check-box"></i>Turned to look out the window</li>
-                                    </ul>
-                                </div>
+                                        {/* Second half of the features */}
+                                        <ul>
+                                        {ServiceDetails.features.slice(3).map((feature, index) => (
+                                            <li key={index}>
+                                            <i className="ti-check-box"></i>
+                                            {feature}
+                                            </li>
+                                        ))}
+                                        </ul>
+                                    </div>
+                                )}
+
 
                                 <ServiceTab />
 
@@ -73,7 +87,7 @@ const ServiceSinglePage = (props) => {
                                             <input type="text" className="form-control" name="phone" id="phone" placeholder="Your Phone*" />
                                         </div>
                                         <div className="submit-area">
-                                            <button type="submit">Submit Now</button>
+                                            <button type="submit">Submit</button>
                                         </div>
                                     </form>
                                 </div>
@@ -92,23 +106,23 @@ const ServiceSinglePage = (props) => {
                                 <div className="widget service-features-widget">
                                     <h3>Our Service Features</h3>
                                     <ol>
-                                        <li>Quality service guarantee</li>
-                                        <li>100% safe work</li>
-                                        <li>Money back guarantee</li>
-                                        <li>100% satisfied client</li>
+                                        {ServiceDetails?.serviceFeatures?.map((feature, index) => (
+                                        <li key={index}>{feature}</li>
+                                        ))}
                                     </ol>
+
                                 </div>
-                                <div className="widget download-widget">
+                                {/*<div className="widget download-widget">
                                     <ul>
                                         <li><Link onClick={ClickHandler} href='/contact'><i className="ti-file"></i>Download Brochure</Link></li>
                                     </ul>
-                                </div>
+                                </div>*/}
                                 <div className="widget contact-widget">
                                     <div>
                                         <h4>Need help?</h4>
-                                        <p>Covered the whole of her lower arm towards the viewer. Gregor then turned to look out the ?</p>
-                                        <p>Phone: ++8451442514</p>
-                                        <Link onClick={ClickHandler} href='/contact'>Contact With Us</Link>
+                                        <p>Give us a call and we'll be happy to help. </p>
+                                        <p>Phone: +1 (516) 310-4738 </p>
+                                        <Link onClick={ClickHandler} href='/contact'>Contact</Link>
                                     </div>
                                 </div>
                             </div>

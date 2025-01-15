@@ -159,7 +159,7 @@
 /*--------------------------------------------------------------
 #2.3	services-section-s2
 --------------------------------------------------------------*/
-.services-section-s2 {
+/*.services-section-s2 {
 	padding: 110px 0 80px;
 
 	@include media-query(991px) {
@@ -269,8 +269,141 @@
 	@include media-query(767px) {
 		padding: 80px 0 50px;
 	}
-}
+}*/ // original css has bug for the grid.  cant add more than 6 services on this
 
+// This is my version..
+
+.services-section-s2 {
+	padding: 110px 0 80px;
+  
+	@include media-query(991px) {
+	  padding: 90px 0 60px;
+	}
+  
+	@include media-query(767px) {
+	  padding: 80px 0 50px;
+	}
+  
+	// Remove the float-based approach and convert the parent .services-grids to a flex container
+	.services-grids {
+	  display: flex;
+	  flex-wrap: wrap;
+	  // gap: 30px; // If you have a gap mixin, you can use gap or just use margins on items
+	  margin: -15px; // We’ll manage spacing with negative margin on the container
+	}
+  
+	.services-grids .grid {
+	  // Remove "float: left;"
+	  // float: left; <-- remove
+  
+	  // Use flex properties instead
+	  flex: 0 0 calc(33.33% - 30px);
+	  // Explanation: 
+	  //    "33.33% - 30px" gives 3 columns ( -30px to account for margins on each side ) 
+	  //    the "flex: 0 0" means don't grow/shrink beyond that calc
+  
+	  margin: 15px;               // So each box has spacing around it
+	  padding: 40px;
+	  border: 1px solid lighten($theme-primary-color, 30%);
+	  @include transition-time(0.5s);
+	  position: relative;
+	  box-sizing: border-box;      // Make sure borders/padding don’t break width
+	  align-self: stretch;        // Let them stretch to the tallest item in each row
+  
+	  // Media query changes
+	  @include media-query(991px) {
+		flex: 0 0 calc(50% - 30px); // 2 columns on tablets
+		padding: 20px;             // Tweak padding if needed
+	  }
+  
+	  @include media-query(767px) {
+		flex: 0 0 calc(100% - 30px); // 1 column on mobile
+		padding: 20px 25px;
+	  }
+  
+	  &:before {
+		content: "";
+		background: transparentize($white, 0.03);
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		@include transition-time(0.2s);
+	  }
+  
+	  &:hover {
+		@include background-style("/images/service-bg.jpg", center 0, auto, no-repeat, local);
+	  }
+	}
+  
+	.grid .fi:before {
+	  font-size: 50px;
+	  font-size: calc-rem-value(50);
+	  color: $theme-primary-color;
+	  @include transition-time(0.2s);
+  
+	  @include media-query(991px) {
+		font-size: 35px;
+		font-size: calc-rem-value(35);
+	  }
+	}
+  
+	.services-grids .grid .icon,
+	.services-grids .grid h3,
+	.services-grids .grid p {
+	  position: relative;
+	}
+  
+	.grid h3 {
+	  font-size: 20px;
+	  font-size: calc-rem-value(20);
+	  font-weight: bold;
+	  margin: 0.7em 0 0.7em;
+  
+	  @include media-query(991px) {
+		font-size: 18px;
+		font-size: calc-rem-value(18);
+	  }
+  
+	  a {
+		color: $heading-color;
+		@include transition-time(0.2s);
+	  }
+	}
+  
+	.grid:hover .fi:before {
+	  color: $white;
+	}
+  
+	.grid:hover h3 a,
+	.grid:hover p {
+	  color: $white;
+	}
+  
+	.grid p {
+	  margin: 0;
+	}
+  
+	.grid:hover:before {
+	  background: transparentize($theme-primary-color, 0.03);
+	}
+  }
+  
+  // Keep any additional sections as needed
+  .service-s2-pg-section {
+	padding: 110px 0 80px;
+  
+	@include media-query(991px) {
+	  padding: 90px 0 60px;
+	}
+  
+	@include media-query(767px) {
+	  padding: 80px 0 50px;
+	}
+  }
+  
+  
 
 /*--------------------------------------------------------------
 #2.4	contact-section
