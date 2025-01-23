@@ -39,12 +39,14 @@
 			list-style: none;
 		}
 
+
 		> ul li a:hover,
 		> ul li a:focus,
 		> ul > li .sub-menu a:hover {
 			text-decoration: none;
 			color: $theme-primary-color;
 		}
+
 
 		> ul > .menu-item-has-children > a {
 			position: relative;
@@ -75,7 +77,7 @@
 			> ul > li > a {
 				font-size: 16px;
 				font-size: calc-rem-value(16);
-				color: $heading-color;
+				color: #3E3D39;
 				padding: 37px 20px;
 				display: block;
 			}

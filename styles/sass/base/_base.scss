@@ -21,7 +21,7 @@ body {
     background-color: #EDEDE9; // Neutral body background
     font-size: 16px;
     font-size: calc-rem-value(16);
-    color: #5C5C5C; // Neutral text color
+    color: #3E3D39; // Neutral text color
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
 
@@ -34,6 +34,10 @@ body {
 p {
     color: #5C5C5C; // Neutral paragraph text
     line-height: 1.6em;
+}
+
+span {
+    color: #5C5C5C !important; // Neutral span text
 }
 
 h1,
@@ -153,3 +157,5 @@ $accent-color-2: #F5EBE0;
 $accent-color-3: #E3D5CA;
 $highlight-color: #D5BDAF;
 $text-neutral: #5C5C5C;
+$text-color-1: #3E3D39; // A dark neutral color that complements your palette.
+
