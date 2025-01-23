@@ -44,7 +44,7 @@ h5,
 h6 {
     font-family: $heading-font;
     font-weight: bold;
-    color: #D5BDAF; // Heading color from the palette
+    color: #5C5C5C; // Heading color from the palette
 }
 
 ul {
@@ -55,13 +55,13 @@ ul {
 
 a {
     text-decoration: none;
-    color: #D6CCC2; // Link color
+    color: #5C5C5C; // Link color
     @include transition-time(0.2s);
 }
 
 a:hover {
     text-decoration: none;
-    color: #F5EBE0; // Hover link color
+    color: #5C5C5C; // Hover link color
 }
 
 img {
