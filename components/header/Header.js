@@ -35,9 +35,8 @@ const Header = (props) => {
                         <ul className="nav navbar-nav mb-2 mb-lg-0">
                             
                             <li className="menu-item-has-children">
-                                <Link onClick={ClickHandler} href="/">Pages</Link>
+                                <Link onClick={ClickHandler} href="/about">About</Link>
                                 <ul className="sub-menu">
-                                    <li><Link onClick={ClickHandler} href="/about">About</Link></li>
                                     <li><Link onClick={ClickHandler} href="/testimonials">Testimonials</Link></li>
                                     <li><Link onClick={ClickHandler} href="/team">Team</Link></li>
                                     <li><Link onClick={ClickHandler} href="/contact">Contact</Link></li>

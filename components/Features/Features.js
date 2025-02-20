@@ -14,10 +14,11 @@ const Features = () => {
                   {/* Icon from your services data for "Business to Business" */}
                   <i className="fi flaticon-start"></i>
                 </div>
-                <h3>Business to Business</h3>
+                <h3>Website Development and Online Presence</h3>
                 <p>
-                  Beneath a well-planned strategy. A range of proven solutions 
-                  paves the path for unstoppable growth.
+                  Establish a strong online presence with a professionally designed website. 
+                  Optimize patient acquisition, streamline appointment scheduling, and showcase 
+                  your services effectively.
                 </p>
               </div>
 
@@ -27,10 +28,11 @@ const Features = () => {
                   {/* Keeping the diamond icon from your original snippet */}
                   <i className="fi flaticon-diamond"></i>
                 </div>
-                <h3>Market Research</h3>
+                <h3>B2B Medical Sales</h3>
                 <p>
-                  Driven by in-depth demographic insights. Our data-backed 
-                  approach unlocks new market potential.
+                  Strengthen partnerships with healthcare providers and medical offices. 
+                  Our data-driven approach helps identify key decision-makers and expand 
+                  your client base with strategic outreach.
                 </p>
               </div>
 
@@ -40,11 +42,13 @@ const Features = () => {
                   {/* Icon for "Social Media" in your services data is flaticon-stats */}
                   <i className="fi flaticon-stats"></i>
                 </div>
-                <h3>Social Media</h3>
+                <h3>Branding and Rebranding</h3>
                 <p>
-                  Amplify your presence through tailored content. A strategic 
-                  plan fosters lively audience engagement.
+                  Strengthen your medical office or law practice reputation with a cohesive brand identity. 
+                  Whether you're launching a new practice or refreshing an existing one, our tailored 
+                  branding strategies ensure that your message resonates with patients and healthcare professionals alike.
                 </p>
+
               </div>
 
             </div>

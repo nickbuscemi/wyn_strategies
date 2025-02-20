@@ -3,47 +3,51 @@ import React from 'react'
 const Skill = (props) => {
     return (
         <section className="experience-section">
-            <div className="content-area">
+                        <div className="content-area">
                 <div className="left-col"></div>
                 <div className="right-col">
                     <h2>Why we are the best choice for <br />your next project!</h2>
-                    <p>Helplessly as he looked. "What's happened to me?" he thought. It wasn't a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table - Samsa was a travelling salesman</p>
+                    <p>
+                        Our team brings years of expertise in branding, web development, business consulting, and digital marketing to help your practice grow. 
+                        Whether you’re building your online presence, expanding your B2B network, or launching a new brand strategy, we provide tailored solutions 
+                        that drive results.
+                    </p>
                     <ul>
-                        <li><i className="ti-check"></i>peacefully between its four familiar walls a collection of textile samples</li>
-                        <li><i className="ti-check"></i>Familiar walls a collection of textile samples</li>
-                        <li><i className="ti-check"></i>peaacefully between its four familiar walls a collection of textile samples</li>
-                        <li><i className="ti-check"></i>Between its four familiar walls a collection of textile samples</li>
+                        <li><i className="ti-check"></i>Customized branding strategies to enhance visibility and credibility</li>
+                        <li><i className="ti-check"></i>Cutting-edge website development for seamless user experience</li>
+                        <li><i className="ti-check"></i>Proven B2B growth techniques to establish key partnerships</li>
+                        <li><i className="ti-check"></i>Strategic marketing campaigns to drive engagement and revenue</li>
                     </ul>
-                    <div className="skills">
+                    {/*<div className="skills">
                         <div className="skill">
-                            <h6>Marketing</h6>
+                            <h6>Branding & Rebranding</h6>
                             <div className="progress">
-                                <div className="progress-bar" style={{ width: "85%" }}></div>
-                                <span className="progress-value">85%</span>
+                                <div className="progress-bar" style={{ width: "90%" }}></div>
+                                <span className="progress-value">90%</span>
                             </div>
                         </div>
                         <div className="skill">
-                            <h6>Consulting</h6>
+                            <h6>Website Development</h6>
+                            <div className="progress">
+                                <div className="progress-bar" style={{ width: "95%" }}></div>
+                                <span className="progress-value">95%</span>
+                            </div>
+                        </div>
+                        <div className="skill">
+                            <h6>Business Consulting</h6>
                             <div className="progress">
                                 <div className="progress-bar" style={{ width: "98%" }}></div>
                                 <span className="progress-value">98%</span>
                             </div>
                         </div>
                         <div className="skill">
-                            <h6>Development</h6>
+                            <h6>Digital Marketing</h6>
                             <div className="progress">
-                                <div className="progress-bar" style={{ width: "92%" }}></div>
-                                <span className="progress-value">92%</span>
+                                <div className="progress-bar" style={{ width: "85%" }}></div>
+                                <span className="progress-value">85%</span>
                             </div>
                         </div>
-                        <div className="skill">
-                            <h6>Branding</h6>
-                            <div className="progress">
-                                <div className="progress-bar" style={{ width: "90%" }}></div>
-                                <span className="progress-value">90%</span>
-                            </div>
-                        </div>
-                    </div>
+                    </div>*/}
                 </div>
             </div>
             {/* <section className="wpo-skill-section section-padding">

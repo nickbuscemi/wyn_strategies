@@ -23,15 +23,15 @@ const HomePage =() => {
             <Hero/>
             <Features/>
             <WorkProcess/>
-            <About/>
+            {/*<About/>*/}
             <ServiceSection/>
             <Testimonial/>
             <ProjectSection/>
-            <FunFact/>
+            {/*<FunFact/>*/}
             <TeamSection/>
-            <PartnerSection/>
-            <ContactSection/>
-            <BlogSection/>
+            {/*<PartnerSection/>*/}
+            {/*<ContactSection/>*/}
+            {/*<BlogSection/>*/}
             <Footer/> 
             <Scrollbar/>
         </Fragment>

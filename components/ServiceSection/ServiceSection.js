@@ -16,7 +16,6 @@ const ServiceSection = () => {
                         <div className="section-title-s3">
                             <span>Services</span>
                             <h2>For your Practice</h2>
-                            <p>Our branding & rebranding services are designed to breathe new life into your business, ensuring your brand is relevant and compelling in a constantly evolving and often saturated market. A successful rebrand goes beyond just changing a logo or color scheme; it involves a comprehensive transformation that reflects your practice values, vision, and goals.</p>
                         </div>
                     </div>
                 </div>

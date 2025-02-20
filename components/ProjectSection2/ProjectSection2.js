@@ -10,14 +10,16 @@ const ClickHandler = () => {
 
 const ProjectSection2 = (props) => {
     return (
+    
         <section className={`projects-sections-s2 section-padding ${props.pClass}`}>
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col col-xl-8 col-lg-10">
                         <div className="section-title-s3">
+                            <br></br>
+                            <br></br>
                             <span>Projects</span>
                             <h2>Recent Projects</h2>
-                            <p>Showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look </p>
                         </div>
                     </div>
                 </div>

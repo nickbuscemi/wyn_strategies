@@ -8,30 +8,30 @@ const Teams = [
     {
         Id: '1',
         tImg:timg1,
-        name:'Morkal Akunda',
-        slug:'Morkal-Akunda',
-        title:'Designer',
+        name:'Melissa Sutherland',
+        slug:'Melissa-Sutherland',
+        title:'Founder',
     },
     {
         Id: '2',
         tImg:timg2,
-        name:'Tiptop Jonathon',
-        slug:'Tiptop-Jonathon',
-        title:'Developer',
+        name:'Nicholas Buscemi',
+        slug:'Nicholas-Buscemi',
+        title:'Lead Developer',
     },
     {
         Id: '3',
         tImg:timg3,
-        name:'Aleon Dela',
-        slug:'Aleon-Dela',
-        title:'Programmer',
+        name:'Carolann Yazzo',
+        slug:'Carolann-Yazzo',
+        title:'Medical Consulant',
     },
     {
         Id: '4',
         tImg:timg4,
-        name:'Beila kelar',
-        slug:'Beila-kelar',
-        title:'Designer',
+        name:'Takao Mangelis',
+        slug:'Takao-Mangelis',
+        title:'Contract Consultant',
     }
 ]
 

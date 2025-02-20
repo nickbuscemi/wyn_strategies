@@ -8,10 +8,11 @@ import pimg3 from '/public/images/partners/img-3.png'
 import pimg4 from '/public/images/partners/img-4.png'
 import pimg5 from '/public/images/partners/img-2.png'
 import Image from "next/image";
+import gkdm from '/public/images/partner-logos/gkdmlogo1.png'
 
 const partners = [
     {
-        pImg: pimg1,
+        pImg: gkdm,
     },
     {
         pImg: pimg2,

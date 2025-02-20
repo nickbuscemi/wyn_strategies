@@ -29,9 +29,7 @@ const Hero = () => {
                             <div className="slide-text">
                                 <p>With over 25
                                     years of experience in
-                                    provider contracting,
-                                    network management, and
-                                    strategic planning. 
+                                    medical and legal marketing, business developemnt, and community engagement.
                                 </p>
                             </div>
                             <div className="clearfix"></div>
@@ -42,13 +40,13 @@ const Hero = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'/images/slider/slide-2.jpg'})` }}>
+                    <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'/images/slider/slide2.png'})` }}>
                         <div className="container">
                             <div className="slide-title">
-                                <h2>Most populer consulting agency</h2>
+                                <h2>Accelerating Growth for Medical Practices</h2>
                             </div>
                             <div className="slide-text">
-                                <p>Raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                <p>From patient acquisition strategies to brand positioning, we help healthcare providers expand their reach and improve engagement.</p>
                             </div>
                             <div className="clearfix"></div>
                             <div className="slide-btns">
@@ -57,14 +55,15 @@ const Hero = () => {
                         </div>
                     </div>
                 </SwiperSlide>
+
                 <SwiperSlide>
-                    <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'/images/slider/slide-3.jpg'})` }}>
+                    <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'/images/slider/slide3.png'})` }}>
                         <div className="container">
                             <div className="slide-title">
-                                <h2>We do exactly what we says</h2>
+                                <h2>Strategic Marketing for Law Firms</h2>
                             </div>
                             <div className="slide-text">
-                                <p>Raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                <p>We craft powerful legal marketing strategies that drive visibility, attract high-value clients, and establish your firm as an authority in the industry.</p>
                             </div>
                             <div className="clearfix"></div>
                             <div className="slide-btns">
@@ -73,6 +72,7 @@ const Hero = () => {
                         </div>
                     </div>
                 </SwiperSlide>
+
                 ...
             </Swiper>
         </section>

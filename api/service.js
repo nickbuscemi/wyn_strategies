@@ -6,60 +6,6 @@ import simg5 from '/public/images/service-single/img-5.jpg'
 import simg6 from '/public/images/service-single/img-3.jpg'
 
 const Services = [
-    // 1) Branding & Rebranding (unchanged)
-    {
-        Id: '1',
-        sImg: simg,
-        sTitle: 'Branding & Rebranding',
-        slug: 'branding-rebranding',
-        description: 'Our branding & rebranding services are designed to breathe new life into your business, ensuring your brand is relevant and compelling in a constantly evolving and often saturated market.',
-        des2: 'A successful rebrand goes beyond just changing a logo or color scheme; it involves a comprehensive transformation that reflects your practice values, vision, and goals.',
-        des3: 'We uncover your unique practice story and ensure every aspect of your brand resonates with your target audience.',
-        icon: 'flaticon-gift',
-        additionalContent: [
-            {
-                title1: 'Market Research service',
-                paragraph: 'It wasn\'t a dream. His room, a proper human room...',
-                subParagraph: 'A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above'
-            },
-            {
-                title2: 'Magazine and housed in a nice, gilded frame',
-                paragraph: 'Peacefully between its four familiar walls...',
-            },
-        ],
-        features: [
-            'Towards the viewer Gregor then turned',
-            'Showed a lady fitted out with a fur hat',
-            'Turned to look out the window',
-            'Towards the viewer Gregor then turned',
-            'Showed a lady fitted out with a fur hat',
-            'Turned to look out the window',
-        ],
-        serviceFeatures: [
-            'Quality service guarantee',
-            '100% safe work',
-            'Money back guarantee',
-            '100% satisfied client',
-        ],
-        serviceTabs: [
-            {
-                id: '1',
-                title: 'precautions',
-                content: 'Collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above...'
-            },
-            {
-                id: '2',
-                title: 'Intelligence',
-                content: 'Collection of textile samples lay spread out on the tablehung a picture that he had recently cut out of an illustrated...'
-            },
-            {
-                id: '3',
-                title: 'Specializations',
-                content: 'Collection of textile samples lay spread salesman - and above it there hung a picture that...'
-            },
-        ],
-    },
-
     // 2) Website Development & Online Presence
     {
         Id: '2',
@@ -110,60 +56,6 @@ const Services = [
                 id: '3',
                 title: 'Launch & Optimize',
                 content: 'We assist with the full launch process and continuously optimize your site based on real-time user feedback.'
-            },
-        ],
-    },
-
-    // 3) Social Media
-    {
-        Id: '3',
-        sImg: simg3,
-        sTitle: 'Social Media',
-        slug: 'social-media',
-        description: 'We build social media strategies that attract patients and foster long-term trust, ultimately generating sustainable revenue.',
-        des2: 'From creating social presence to sharing relevant content across multiple platforms weekly, we keep your audience engaged and informed.',
-        des3: 'Our social media solutions help elevate brand awareness, maximize patient loyalty, and drive new referrals to your practice.',
-        icon: 'flaticon-stats',
-        additionalContent: [
-            {
-                title1: 'Platform Selection & Branding',
-                paragraph: 'We help you choose the right social media platforms that align with your brand and audience, ensuring maximum reach.',
-                subParagraph: 'By maintaining a cohesive brand identity across platforms, you reinforce your message and establish trust.'
-            },
-            {
-                title2: 'Content Creation & Curation',
-                paragraph: 'Our team develops engaging visuals, captions, and stories that capture attention and spark conversation.',
-            },
-        ],
-        features: [
-            'Professional profile setup & optimization',
-            'Consistent brand messaging across platforms',
-            'Custom graphics and caption strategies',
-            'Regular engagement through comments & DMs',
-            'Growth-focused campaigns to expand reach',
-            'Detailed monthly analytics & reporting',
-        ],
-        serviceFeatures: [
-            'Dedicated social media manager',
-            'Custom content calendar',
-            'Instant audience feedback',
-            'Targeted ad campaigns',
-        ],
-        serviceTabs: [
-            {
-                id: '1',
-                title: 'Strategy & Planning',
-                content: 'We develop a custom social media strategy based on your practice goals and target demographic.'
-            },
-            {
-                id: '2',
-                title: 'Content & Posting',
-                content: 'Our content team creates and schedules regular posts to keep your audience engaged and informed.'
-            },
-            {
-                id: '3',
-                title: 'Analytics & Optimization',
-                content: 'We monitor performance metrics to refine future campaigns and boost overall social media ROI.'
             },
         ],
     },
@@ -221,57 +113,56 @@ const Services = [
             },
         ],
     },
-
-    // 5) Video Production
+    // 1) Branding & Rebranding (unchanged)
     {
-        Id: '5',
-        sImg: simg6,
-        sTitle: 'Video Production',
-        slug: 'video-production',
-        description: 'Bring your practice to life with professional video production designed to captivate and resonate with your audience.',
-        des2: 'We use the latest technology and cinematic techniques to produce compelling narratives—whether corporate videos, testimonials, or educational content.',
-        des3: 'From concept through final cut, our team delivers exceptional results that help you connect with patients and clients in an impactful way.',
-        icon: 'flaticon-green-energy',
+        Id: '1',
+        sImg: simg,
+        sTitle: 'Branding & Rebranding',
+        slug: 'branding-rebranding',
+        description: 'Our branding & rebranding services are designed to breathe new life into your business, ensuring your brand is relevant and compelling in a constantly evolving and often saturated market.',
+        des2: 'A successful rebrand goes beyond just changing a logo or color scheme; it involves a comprehensive transformation that reflects your practice values, vision, and goals.',
+        des3: 'We uncover your unique practice story and ensure every aspect of your brand resonates with your target audience.',
+        icon: 'flaticon-gift',
         additionalContent: [
             {
-                title1: 'Concept & Storyboarding',
-                paragraph: 'Our creative team works with you to develop a clear, concise narrative that reflects your brand identity and resonates with your target audience.',
-                subParagraph: 'We plan every detail, from scriptwriting to visual style, ensuring a coherent and high-impact story.'
+                title1: 'Market Research service',
+                paragraph: 'It wasn\'t a dream. His room, a proper human room...',
+                subParagraph: 'A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above'
             },
             {
-                title2: 'Production & Post-Production',
-                paragraph: 'We handle shooting, lighting, sound design, and meticulous editing to create polished videos ready for distribution.',
+                title2: 'Magazine and housed in a nice, gilded frame',
+                paragraph: 'Peacefully between its four familiar walls...',
             },
         ],
         features: [
-            'High-definition filming with advanced equipment',
-            'Professional on-site crew & directors',
-            'Engaging motion graphics and animation',
-            'Studio-quality sound design & editing',
-            'Color grading for a cinematic look',
-            'Multiple format outputs for various platforms',
+            'Towards the viewer Gregor then turned',
+            'Showed a lady fitted out with a fur hat',
+            'Turned to look out the window',
+            'Towards the viewer Gregor then turned',
+            'Showed a lady fitted out with a fur hat',
+            'Turned to look out the window',
         ],
         serviceFeatures: [
-            'Creative scripting and storyboarding',
-            'Professional filming and editing',
-            'On-time delivery and revisions',
-            'Flexible packages for all budgets',
+            'Quality service guarantee',
+            '100% safe work',
+            'Money back guarantee',
+            '100% satisfied client',
         ],
         serviceTabs: [
             {
                 id: '1',
-                title: 'Pre-Production',
-                content: 'Scripting, storyboarding, and scheduling all happen here to ensure the shoot runs smoothly.'
+                title: 'precautions',
+                content: 'Collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above...'
             },
             {
                 id: '2',
-                title: 'Production',
-                content: 'Our videographers capture your vision using high-end equipment and proven techniques.'
+                title: 'Intelligence',
+                content: 'Collection of textile samples lay spread out on the tablehung a picture that he had recently cut out of an illustrated...'
             },
             {
                 id: '3',
-                title: 'Post-Production',
-                content: 'Editing, sound mixing, color grading, and final touches to deliver a polished, professional video.'
+                title: 'Specializations',
+                content: 'Collection of textile samples lay spread salesman - and above it there hung a picture that...'
             },
         ],
     },
@@ -329,6 +220,114 @@ const Services = [
             },
         ],
     },
+
+    // 3) Social Media
+    {
+        Id: '3',
+        sImg: simg3,
+        sTitle: 'Social Media and Video Production',
+        slug: 'social-media',
+        description: 'We build social media strategies that attract patients and foster long-term trust, ultimately generating sustainable revenue.',
+        des2: 'From creating social presence to sharing relevant content across multiple platforms weekly, we keep your audience engaged and informed.',
+        des3: 'Our social media solutions help elevate brand awareness, maximize patient loyalty, and drive new referrals to your practice.',
+        icon: 'flaticon-stats',
+        additionalContent: [
+            {
+                title1: 'Platform Selection & Branding',
+                paragraph: 'We help you choose the right social media platforms that align with your brand and audience, ensuring maximum reach.',
+                subParagraph: 'By maintaining a cohesive brand identity across platforms, you reinforce your message and establish trust.'
+            },
+            {
+                title2: 'Content Creation & Curation',
+                paragraph: 'Our team develops engaging visuals, captions, and stories that capture attention and spark conversation.',
+            },
+        ],
+        features: [
+            'Professional profile setup & optimization',
+            'Consistent brand messaging across platforms',
+            'Custom graphics and caption strategies',
+            'Regular engagement through comments & DMs',
+            'Growth-focused campaigns to expand reach',
+            'Detailed monthly analytics & reporting',
+        ],
+        serviceFeatures: [
+            'Dedicated social media manager',
+            'Custom content calendar',
+            'Instant audience feedback',
+            'Targeted ad campaigns',
+        ],
+        serviceTabs: [
+            {
+                id: '1',
+                title: 'Strategy & Planning',
+                content: 'We develop a custom social media strategy based on your practice goals and target demographic.'
+            },
+            {
+                id: '2',
+                title: 'Content & Posting',
+                content: 'Our content team creates and schedules regular posts to keep your audience engaged and informed.'
+            },
+            {
+                id: '3',
+                title: 'Analytics & Optimization',
+                content: 'We monitor performance metrics to refine future campaigns and boost overall social media ROI.'
+            },
+        ],
+    },
+
+    /* 5) Video Production
+    {
+        Id: '5',
+        sImg: simg6,
+        sTitle: 'Video Production',
+        slug: 'video-production',
+        description: 'Bring your practice to life with professional video production designed to captivate and resonate with your audience.',
+        des2: 'We use the latest technology and cinematic techniques to produce compelling narratives—whether corporate videos, testimonials, or educational content.',
+        des3: 'From concept through final cut, our team delivers exceptional results that help you connect with patients and clients in an impactful way.',
+        icon: 'flaticon-green-energy',
+        additionalContent: [
+            {
+                title1: 'Concept & Storyboarding',
+                paragraph: 'Our creative team works with you to develop a clear, concise narrative that reflects your brand identity and resonates with your target audience.',
+                subParagraph: 'We plan every detail, from scriptwriting to visual style, ensuring a coherent and high-impact story.'
+            },
+            {
+                title2: 'Production & Post-Production',
+                paragraph: 'We handle shooting, lighting, sound design, and meticulous editing to create polished videos ready for distribution.',
+            },
+        ],
+        features: [
+            'High-definition filming with advanced equipment',
+            'Professional on-site crew & directors',
+            'Engaging motion graphics and animation',
+            'Studio-quality sound design & editing',
+            'Color grading for a cinematic look',
+            'Multiple format outputs for various platforms',
+        ],
+        serviceFeatures: [
+            'Creative scripting and storyboarding',
+            'Professional filming and editing',
+            'On-time delivery and revisions',
+            'Flexible packages for all budgets',
+        ],
+        serviceTabs: [
+            {
+                id: '1',
+                title: 'Pre-Production',
+                content: 'Scripting, storyboarding, and scheduling all happen here to ensure the shoot runs smoothly.'
+            },
+            {
+                id: '2',
+                title: 'Production',
+                content: 'Our videographers capture your vision using high-end equipment and proven techniques.'
+            },
+            {
+                id: '3',
+                title: 'Post-Production',
+                content: 'Editing, sound mixing, color grading, and final touches to deliver a polished, professional video.'
+            },
+        ],
+    },*/
 
     // 7) Other Relevant Marketing Services
     {

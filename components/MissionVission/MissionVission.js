@@ -12,13 +12,14 @@ const MissionVission = () => {
                     <div className="col col-xl-8 col-lg-10">
                         <div className="title-area">
                             <h2>
-                                As I have been in this vertical for well over a decade, I've seen the
+                                "As I have been in this vertical for well over a decade, I've seen the
                                 landscape change many times. During this journey, I've worked with
                                 some of the Island’s most successful Neurosurgical, Pain Management,
                                 and legal groups, including NY Pain Consultants, NSPC, National Spine
                                 and Pain, New York Spine Institute, Long Island Brain & Spine, and
-                                several health-affiliated law firms.
+                                several health-affiliated law firms."
                             </h2>
+                            <br></br>
                             <p>
                                 The comprehensive overview below can be tailored to your specific
                                 needs. Although it is a broad look at what’s possible, it’s nearly
@@ -33,7 +34,8 @@ const MissionVission = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                {/* stock images for this */}
+                <div className="row"> 
                     <div className="col col-xs-12">
                         <div className="mission-vision-grids clearfix">
                             <div className="grid">
@@ -44,9 +46,7 @@ const MissionVission = () => {
                                 <p>
                                     My mission is to guide independent practices and small businesses
                                     toward sustainable growth by leveraging proven strategies and
-                                    industry partnerships. By focusing on personalized patient care and
-                                    operational efficiency, we ensure practices thrive while maintaining
-                                    the highest standards of service.
+                                    industry partnerships. 
                                 </p>
                             </div>
                             <div className="grid">
@@ -55,9 +55,9 @@ const MissionVission = () => {
                                 </div>
                                 <h3>Our Vision</h3>
                                 <p>
-                                    I envision a healthcare and legal landscape where smaller,
+                                    We envision a healthcare and legal landscape where
                                     independent practices continue to flourish. By harnessing the power
-                                    of innovation, strategic relationships, and patient-centered
+                                    of innovation, strategic relationships, and patient/client centered
                                     approaches, we can pave the way for stronger, more personalized
                                     services that truly stand the test of time.
                                 </p>
@@ -69,10 +69,10 @@ const MissionVission = () => {
                                 <h3>Our Strategies</h3>
                                 <p>
                                     Drawing from my extensive experience in marketing, brand
-                                    development, and strategic outreach, I tailor multi-pronged growth
+                                    development, and strategic outreach, we tailor multi-pronged growth
                                     plans for each client. By cultivating key referral sources,
                                     enhancing online visibility, and streamlining operational processes,
-                                    we ensure that practices are equipped to meet—if not exceed—their
+                                    we ensure that practices are equipped to exceed
                                     yearly objectives.
                                 </p>
                             </div>

@@ -22,10 +22,8 @@ const WorkProcess = () => {
 
               {/* Step 1 */}
               <div className="grid">
-                <div className="icon">
-                  <i className="fi flaticon-idea"></i>
-                </div>
-                <h3>01. Discovery & Analysis</h3>
+                
+                <h3>Discovery & Analysis</h3>
                 <p>
                   We begin by analyzing your brand, competition, 
                   and target audience—identifying key challenges 
@@ -35,10 +33,8 @@ const WorkProcess = () => {
 
               {/* Step 2 */}
               <div className="grid">
-                <div className="icon">
-                  <i className="fi flaticon-diamond"></i>
-                </div>
-                <h3>02. Strategy & Planning</h3>
+                
+                <h3>Strategy & Planning</h3>
                 <p>
                   Guided by our findings, we craft a strategic roadmap 
                   tailored to your objectives, ensuring your core 
@@ -48,10 +44,8 @@ const WorkProcess = () => {
 
               {/* Step 3 */}
               <div className="grid">
-                <div className="icon">
-                  <i className="fi flaticon-sheriff"></i>
-                </div>
-                <h3>03. Execution & Measurement</h3>
+                
+                <h3>Execution & Measurement</h3>
                 <p>
                   Our expert team implements the plan, tracks performance, 
                   and refines tactics to drive sustainable, long-term 
