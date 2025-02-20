@@ -29,8 +29,8 @@ const Teams = [
     {
         Id: '4',
         tImg:timg4,
-        name:'Takao Mangelis',
-        slug:'Takao-Mangelis',
+        name:'Takao Mangulis',
+        slug:'Takao-Mangulis',
         title:'Contract Consultant',
     }
 ]
