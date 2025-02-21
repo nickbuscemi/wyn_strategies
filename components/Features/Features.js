@@ -12,7 +12,7 @@ const Features = () => {
               <div className="grid">
                 <div className="icon">
                   {/* Icon from your services data for "Business to Business" */}
-                  <i className="fi flaticon-start"></i>
+                  <i className="fi flaticon-stats"></i>
                 </div>
                 <h3>Website Development and Online Presence</h3>
                 <p>
@@ -26,7 +26,8 @@ const Features = () => {
               <div className="grid">
                 <div className="icon">
                   {/* Keeping the diamond icon from your original snippet */}
-                  <i className="fi flaticon-diamond"></i>
+                  <i className="fi flaticon-start"></i>
+
                 </div>
                 <h3>B2B Medical Sales</h3>
                 <p>
@@ -39,8 +40,7 @@ const Features = () => {
               {/* Feature #3: Social Media */}
               <div className="grid">
                 <div className="icon">
-                  {/* Icon for "Social Media" in your services data is flaticon-stats */}
-                  <i className="fi flaticon-stats"></i>
+                <i className="fi flaticon-diamond"></i>
                 </div>
                 <h3>Branding and Rebranding</h3>
                 <p>

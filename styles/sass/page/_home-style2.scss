@@ -332,9 +332,7 @@
 		@include transition-time(0.2s);
 	  }
   
-	  &:hover {
-		@include background-style("/images/service-bg.jpg", center 0, auto, no-repeat, local);
-	  }
+	  
 	}
   
 	.grid .fi:before {

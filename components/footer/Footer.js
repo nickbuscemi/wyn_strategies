@@ -17,7 +17,7 @@ const Footer = (props) => {
             <div className="upper-footer">
                 <div className="container">
                     <div className="row">
-                        <div className="col col-lg-3 col-md-6 col-12">
+                        <div className="col col-lg-4 col-md-6 col-12">
                             <div className="widget about-widget">
                                 <div className="logo widget-title">
                                     <Image src={Logo} alt="logo" />
@@ -32,12 +32,11 @@ const Footer = (props) => {
                                 <ul>
                                     <li><Link onClick={ClickHandler} href="/">Home</Link></li>
                                     <li><Link onClick={ClickHandler} href="/about">About</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/blog">Blog</Link></li>
+                                    {/*<li><Link onClick={ClickHandler} href="/blog">Blog</Link></li>*/}
                                 </ul>
                                 <ul>
-                                    <li><Link onClick={ClickHandler} href="/contact">Contact</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/projects">Projects</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/services">Services</Link></li>
+                                <li><Link onClick={ClickHandler} href="/contact">Contact</Link></li>
+                                <li><Link onClick={ClickHandler} href="/services">Services</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -48,12 +47,11 @@ const Footer = (props) => {
                                 </div>
                                 <ul>
                                     <li>Phone: +1 (516) 310-4738</li>
-                                    <li>Email: mjsutherland703@gmail.com</li>
-                                    <li>Office Time: 9AM- 5PM</li>
+                                    <li>Email: msutherland@wynstrategies.com</li>
                                 </ul>
                             </div>
                         </div>
-                        <div className="col col-lg-3 col-md-6 col-12">
+                        {/*<div className="col col-lg-3 col-md-6 col-12">
                             <div className="widget newsletter-widget">
                                 <div className="widget-title">
                                     <h3>Newsletter</h3>
@@ -68,7 +66,7 @@ const Footer = (props) => {
                                     </div>
                                 </form>
                             </div>
-                        </div>
+                        </div>*/}
                     </div>
                 </div>
             </div>

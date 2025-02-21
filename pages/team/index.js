@@ -10,7 +10,7 @@ const TeamPage =() => {
     return(
         <Fragment>
             <Navbar hclass={'header-style-3'} Logo={Logo} />
-            <PageTitle pageTitle={'Team'} pagesub={'Team'}/> 
+            <PageTitle pageTitle={'Team'} pagesub={'Team'} bgImage={'/images/page-titles/team-title.png'}/> 
             <TeamSectionS2 tmClass={'team-pg-section'}/>
             <Footer/>
             <Scrollbar/>

@@ -11,8 +11,9 @@ const ServicePage =() => {
     return(
         <Fragment>
             <Navbar hclass={'header-style-3'} Logo={Logo} />
-            <PageTitle pageTitle={'Service'} pagesub={'Service'}/> 
-            <ServiceSection/>
+            <PageTitle pageTitle={'Services'} pagesub={'Service'} bgImage={'/images/page-titles/services-title.png'}/> 
+            <br></br><br></br>
+            <ServiceSection />
             <Footer/>
             <Scrollbar/>
         </Fragment>

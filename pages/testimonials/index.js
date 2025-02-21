@@ -11,7 +11,7 @@ const TestimonialPage = (props) => {
     return (
         <Fragment>
             <Navbar hclass={'header-style-3'} Logo={Logo} />
-            <PageTitle pageTitle={'Testimonials'} pagesub={'Testimonials'} />
+            <PageTitle pageTitle={'Testimonials'} pagesub={'Testimonials'} bgImage={'/images/page-titles/testimonial-title.png'} />
             <Testimonial2 />
             <Footer/>
             <Scrollbar />

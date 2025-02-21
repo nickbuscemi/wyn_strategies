@@ -5,6 +5,7 @@ import simg4 from '/public/images/service-single/img-4.jpg'
 import simg5 from '/public/images/service-single/img-5.jpg'
 import simg6 from '/public/images/service-single/img-3.jpg'
 
+
 const Services = [
     // 2) Website Development & Online Presence
     {
@@ -16,6 +17,7 @@ const Services = [
         des2: 'We ensure your site not only looks amazing but also works effectively, captivating visitors from the moment they arrive.',
         des3: 'Our team builds a credible and reliable online presence that is mobile-friendly, SEO-optimized, and easily navigable for the best user experience.',
         icon: 'flaticon-suitcase',
+        pageTitle: '/images/page-titles/web-title.png',
         additionalContent: [
             {
                 title1: 'Custom Design & Development',
@@ -70,6 +72,7 @@ const Services = [
         des2: 'We identify and foster new referral sources, facilitate face-to-face introductions, and help create collaborative marketing opportunities.',
         des3: 'Our approach ensures your practice expands its network, builds trust with potential partners, and sustains successful alliances.',
         icon: 'flaticon-start',
+        pageTitle: '/images/page-titles/btob-title.png',
         additionalContent: [
             {
                 title1: 'Targeted Outreach & Networking',
@@ -119,53 +122,55 @@ const Services = [
         sImg: simg,
         sTitle: 'Branding & Rebranding',
         slug: 'branding-rebranding',
-        description: 'Our branding & rebranding services are designed to breathe new life into your business, ensuring your brand is relevant and compelling in a constantly evolving and often saturated market.',
-        des2: 'A successful rebrand goes beyond just changing a logo or color scheme; it involves a comprehensive transformation that reflects your practice values, vision, and goals.',
-        des3: 'We uncover your unique practice story and ensure every aspect of your brand resonates with your target audience.',
+        description: 'Your brand is more than just a logo—it’s the foundation of your business identity. We craft compelling brand strategies that establish credibility, resonate with your audience, and differentiate you in a competitive market.',
+        des2: 'Whether you’re building a brand from scratch or revitalizing an existing one, our team ensures consistency across all touchpoints, reinforcing trust and recognition.',
+        des3: 'We combine market research, creative design, and strategic messaging to develop a brand that reflects your vision and drives engagement.',
         icon: 'flaticon-gift',
+        pageTitle: '/images/page-titles/branding-title.png',
         additionalContent: [
             {
-                title1: 'Market Research service',
-                paragraph: 'It wasn\'t a dream. His room, a proper human room...',
-                subParagraph: 'A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above'
+                title1: 'Market Research & Positioning',
+                paragraph: 'We analyze industry trends, target demographics, and competitor landscapes to position your brand effectively.',
+                subParagraph: 'By understanding your unique value proposition, we develop a brand strategy that connects with your ideal audience.'
             },
             {
-                title2: 'Magazine and housed in a nice, gilded frame',
-                paragraph: 'Peacefully between its four familiar walls...',
+                title2: 'Visual Identity & Messaging',
+                paragraph: 'Our team creates stunning logos, color palettes, and typography paired with compelling messaging that aligns with your brand’s core values.',
             },
         ],
         features: [
-            'Towards the viewer Gregor then turned',
-            'Showed a lady fitted out with a fur hat',
-            'Turned to look out the window',
-            'Towards the viewer Gregor then turned',
-            'Showed a lady fitted out with a fur hat',
-            'Turned to look out the window',
+            'Data-driven brand positioning',
+            'Custom logo and identity design',
+            'Consistent messaging across platforms',
+            'Comprehensive brand guidelines',
+            'Storytelling that resonates with your audience',
+            'Brand audits and refinement strategies',
         ],
         serviceFeatures: [
-            'Quality service guarantee',
-            '100% safe work',
-            'Money back guarantee',
-            '100% satisfied client',
+            'Strategic brand development',
+            'Market-tested design concepts',
+            'Full-service rebranding solutions',
+            'Long-term brand growth strategies',
         ],
         serviceTabs: [
             {
                 id: '1',
-                title: 'precautions',
-                content: 'Collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above...'
+                title: 'Brand Discovery',
+                content: 'We conduct in-depth research and brand audits to define your brand’s mission, values, and target market.'
             },
             {
                 id: '2',
-                title: 'Intelligence',
-                content: 'Collection of textile samples lay spread out on the tablehung a picture that he had recently cut out of an illustrated...'
+                title: 'Design & Development',
+                content: 'From logos to typography and messaging, we build a visual and verbal identity that communicates your brand’s essence.'
             },
             {
                 id: '3',
-                title: 'Specializations',
-                content: 'Collection of textile samples lay spread salesman - and above it there hung a picture that...'
+                title: 'Launch & Implementation',
+                content: 'We ensure a seamless brand rollout across digital and print assets, helping you maintain consistency and recognition.'
             },
         ],
     },
+    
 
     // 6) Contract Consulting
     {
@@ -177,6 +182,7 @@ const Services = [
         des2: 'We excel at building strong provider relationships and ensuring operational success. Our services help you align with organizational goals, regulatory standards, and modern healthcare trends.',
         des3: 'From negotiating fee-for-service, capitation, and value-based agreements to analyzing performance metrics for cost-saving opportunities, we guide your transition to innovative reimbursement models while maintaining the highest quality of care.',
         icon: 'flaticon-gift', // Replace with an appropriate icon if available
+        pageTitle: '/images/page-titles/contract-title.png',
         additionalContent: [
             {
                 title1: 'Comprehensive Contract Reviews',
@@ -231,6 +237,7 @@ const Services = [
         des2: 'From creating social presence to sharing relevant content across multiple platforms weekly, we keep your audience engaged and informed.',
         des3: 'Our social media solutions help elevate brand awareness, maximize patient loyalty, and drive new referrals to your practice.',
         icon: 'flaticon-stats',
+        pageTitle: '/images/page-titles/social-title.png',
         additionalContent: [
             {
                 title1: 'Platform Selection & Branding',
@@ -339,6 +346,7 @@ const Services = [
         des2: 'From concierge-style operational support and virtual assistance to ad campaigns and TV/radio spots, we tailor solutions to your objectives.',
         des3: 'Our comprehensive approach ensures maximum brand visibility, consistent messaging, and tangible results across multiple platforms.',
         icon: 'flaticon-chess-piece',
+        pageTitle: '/images/page-titles/other-title.png',
         additionalContent: [
             {
                 title1: 'Concierge-Style Operational Support',

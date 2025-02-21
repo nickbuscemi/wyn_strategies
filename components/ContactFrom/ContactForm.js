@@ -118,12 +118,12 @@ const ContactForm = () => {
                             value={forms.subject}
                             type="text"
                             name="subject">
-                            <option>Market Research</option>
-                            <option>Tax Management</option>
-                            <option>Financial Advices</option>
-                            <option>Risk Management</option>
-                            <option>Financial Advices</option>
-                            <option>Risk Management</option>
+                            <option>Website Development and Online Presence</option>
+                            <option>Business to Business</option>
+                            <option>Branding and Rebranding</option>
+                            <option>Contract Consulting</option>
+                            <option>Social Media and/or Video Production</option>
+                            <option>Other Relevant Marketing Services</option>
                         </select>
                         {validator.message('subject', forms.subject, 'required')}
                     </div>

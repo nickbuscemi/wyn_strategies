@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
 import Link from "next/link";
 
 const PageTitle = (props) => {
+    const backgroundImageStyle = {
+        backgroundImage: `url(${props.bgImage})`,
+        backgroundPosition: 'center center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+    };
+
     return (
-        <section className="page-title">
+        <section className="page-title" style={backgroundImageStyle}>
             <div className="container">
                 <div className="row">
                     <div className="col col-xs-12">

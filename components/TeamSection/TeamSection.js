@@ -21,7 +21,7 @@ const TeamSection = (props) => {
                     <div className="col col-xl-8 col-lg-10">
                         <div className="cta-content">
                             <div className="video-holder">
-                                <button className="btn-wrap" onClick={() => setOpen(true)}><i className="fi flaticon-video-player" aria-hidden="true"></i><span>See more about our company</span></button>
+                                <button className="btn-wrap" onClick={() => setOpen(true)}><i className="fi flaticon-video-player" aria-hidden="true"></i><span className='text-white'>See more about our company</span></button>
                             </div>
                             <h3>We are the most proven professional marketing agency serving Long Island and New York City</h3>
                         </div>

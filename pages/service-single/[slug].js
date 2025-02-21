@@ -32,7 +32,7 @@ const ServiceSinglePage = (props) => {
     return (
         <Fragment>
             <Navbar hclass={'header-style-3'} Logo={Logo} />
-            <PageTitle pageTitle={ServiceDetails?.sTitle} pagesub={'Project'} />
+            <PageTitle pageTitle={ServiceDetails?.sTitle} pagesub={'Project'} bgImage={ServiceDetails?.pageTitle}/>
 
             <section className="service-single-section section-padding">
                 <div className="container">
@@ -97,21 +97,12 @@ const ServiceSinglePage = (props) => {
                             <div className="service-sidebar">
                                 <div className="widget service-list-widget">
                                     <ul>
-                                        <li className="current"><Link href="/services">All Service</Link></li>
                                         {Services.map((service, srv) => (
                                             <li key={srv}><Link onClick={ClickHandler} href={'/service-single/[slug]'} as={`/service-single/${service.slug}`}>{service.sTitle}</Link></li>
                                         ))}
                                     </ul>
                                 </div>
-                                <div className="widget service-features-widget">
-                                    <h3>Our Service Features</h3>
-                                    <ol>
-                                        {ServiceDetails?.serviceFeatures?.map((feature, index) => (
-                                        <li key={index}>{feature}</li>
-                                        ))}
-                                    </ol>
-
-                                </div>
+                                
                                 {/*<div className="widget download-widget">
                                     <ul>
                                         <li><Link onClick={ClickHandler} href='/contact'><i className="ti-file"></i>Download Brochure</Link></li>

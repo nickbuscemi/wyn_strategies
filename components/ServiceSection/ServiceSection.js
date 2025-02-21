@@ -24,9 +24,9 @@ const ServiceSection = () => {
                         <div className="services-grids clearfix">
                             {Services.map((service, srv) => (
                                 <div className="grid" key={srv}>
-                                    <div className="icon">
+                                    {/*<div className="icon">
                                         <i className={`fi ${service.icon}`}></i>
-                                    </div>
+                                    </div>*/}
                                     <h3><Link onClick={ClickHandler} href={"/service-single/[slug]"} as={`/service-single/${service.slug}`}>{service.sTitle}</Link></h3>
                                     <p>{service.description}</p>
                                 </div>
