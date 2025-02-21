@@ -29,7 +29,7 @@ const Hero = () => {
                             <div className="slide-text">
                                 <p>With over 25
                                     years of experience in
-                                    medical and legal marketing, business developemnt, and community engagement.
+                                    medical and legal marketing, business development, and community engagement.
                                 </p>
                             </div>
                             <div className="clearfix"></div>

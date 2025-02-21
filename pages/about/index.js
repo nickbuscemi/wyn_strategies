@@ -23,9 +23,10 @@ const AboutPage = () => {
             <MissionVission />
             <Skill />
             <Testimonial tClass={'testimonials-section-s2'} />
-            <ProjectSection2 pClass={'about-pg-project-section'} />
+            {/*<ProjectSection2 pClass={'about-pg-project-section'} />*/}
+            <br></br><br></br>
             <TeamSectionS2 />
-            <PartnerSectionS2 />
+            {/*<PartnerSectionS2 />*/}
             <Footer />
             <Scrollbar />
         </Fragment>

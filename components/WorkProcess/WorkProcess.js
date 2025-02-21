@@ -7,7 +7,7 @@ const WorkProcess = () => {
         <div className="row">
           <div className="col col-lg-8 offset-lg-2 col-md-10 offset-md-1">
             <div className="section-title">
-              
+              <h2>The Process</h2>
               <h3>
                 We combine data-driven insights, collaborative planning, and 
                 hands-on execution to deliver real results for your practice.

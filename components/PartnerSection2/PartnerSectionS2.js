@@ -2,32 +2,35 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import pimg1 from '/public/images/partners/img-1.png'
-import pimg2 from '/public/images/partners/img-2.png'
-import pimg3 from '/public/images/partners/img-3.png'
-import pimg4 from '/public/images/partners/img-4.png'
-import pimg5 from '/public/images/partners/img-2.png'
+//import pimg1 from '/public/images/partners/img-1.png'
+//import pimg2 from '/public/images/partners/img-2.png'
+//import pimg3 from '/public/images/partners/img-3.png'
+//import pimg4 from '/public/images/partners/img-4.png'
+//import pimg5 from '/public/images/partners/img-2.png'
 import Image from "next/image";
-import gkdm from '/public/images/partner-logos/gkdmlogo1.png'
+import gkdm from '/public/images/partner-logos/gkmdlogo1.png';
+import nspc from '/public/images/partner-logos/nspclogo1.png';
+import nspc2 from '/public/images/partner-logos/nspclogo2.png';
+import nysi from '/public/images/partner-logos/nysilogo1.png';
 
 const partners = [
     {
         pImg: gkdm,
     },
     {
-        pImg: pimg2,
+        pImg: nspc,
     },
     {
-        pImg: pimg3,
+        pImg: nspc2,
     },
     {
-        pImg: pimg4,
+        pImg: nysi,
     },
     {
-        pImg: pimg5,
+        pImg: gkdm,
     },
     {
-        pImg: pimg1,
+        pImg: nspc,
     },
 ]
 
