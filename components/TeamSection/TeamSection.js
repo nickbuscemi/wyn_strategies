@@ -23,7 +23,7 @@ const TeamSection = (props) => {
                             <div className="video-holder">
                                 <button className="btn-wrap" onClick={() => setOpen(true)}><i className="fi flaticon-video-player" aria-hidden="true"></i><span className='text-white'>See more about our company</span></button>
                             </div>
-                            <h3>We are the most proven professional marketing agency serving Long Island and New York City</h3>
+                            <h3>We are the most proven medical and legal marketing agency serving Long Island and New York City</h3>
                         </div>
                     </div>
                 </div>

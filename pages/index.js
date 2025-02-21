@@ -10,6 +10,7 @@ import ProjectSection from '../components/ProjectSection/ProjectSection';
 import FunFact from '../components/FunFact/FunFact';
 import TeamSection from '../components/TeamSection/TeamSection';
 import PartnerSection from '../components/PartnerSection/PartnerSection';
+import PartnerSectionS2 from '../components/PartnerSection2/PartnerSectionS2';
 import ContactSection from '../components/ContactSection/ContactSection';
 import BlogSection from '../components/BlogSection/BlogSection';
 import Footer from '../components/footer/Footer';
@@ -23,16 +24,18 @@ const HomePage =() => {
             <Hero/>
             <Features/>
             <WorkProcess/>
-            <About/>
+            {/*<About/>*/}
+            <PartnerSectionS2 />
+            <br></br><br></br>
             <ServiceSection/>
             <Testimonial/>
             <ProjectSection/>
-            <FunFact/>
+            {/*<FunFact/>*/}
             <TeamSection/>
-            <PartnerSection/>
-            <ContactSection/>
-            <BlogSection/>
-            <Footer/>
+            {/*<PartnerSection/>*/}
+            {/*<ContactSection/>*/}
+            {/*<BlogSection/>*/}
+            <Footer/> 
             <Scrollbar/>
         </Fragment>
     )
