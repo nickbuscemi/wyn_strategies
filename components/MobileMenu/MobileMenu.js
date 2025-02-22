@@ -34,11 +34,7 @@ const menus = [
     title: 'Projects',
     link: '/projects',
   },
-  {
-    id: 5,
-    title: 'Blog',
-    link: '/blog',
-  },
+  
   {
     id: 88,
     title: 'Contact',
@@ -125,3 +121,9 @@ const MobileMenu = () => {
 };
 
 export default MobileMenu;
+
+{/*{
+    id: 5,
+    title: 'Blog',
+    link: '/blog',
+  },*/}

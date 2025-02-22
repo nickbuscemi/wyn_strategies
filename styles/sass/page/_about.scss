@@ -371,27 +371,48 @@
 --------------------------------------------------------------*/
 .partners-section {
 	background-color: #ffffff;
-	padding: 70px 0 58px;
+	padding: 70px 0 42px;
 	text-align: center;
+
+	@include media-query(767px) {
+		padding: 40px 0; // Reduce padding for a thinner section on mobile
+	}
 
 	.grid {
 		border: 0px solid #e8e8e8;
 		padding-bottom: 1px;
 		margin-bottom: 1px;
 		padding: 25px;
+
+		@include media-query(767px) {
+			padding: 10px; // Reduce padding further for mobile
+		}
 	}
 
 	.grid img {
 		width: auto;
 		margin: 0 auto;
-	}
+		max-width: 100%; // Ensures responsiveness
+		width: 60%;
 
+		@include media-query(767px) {
+			width: 80%; // Increase image size on mobile
+		}
+
+		@include media-query(480px) {
+			width: 40%; // Further increase image size on very small screens
+		}
+	}
 
 	.slick-slider {
 		margin: -15px;
 
 		.slick-slide {
 			padding: 15px;
+
+			@include media-query(767px) {
+				padding: 10px; // Adjust spacing between slides on mobile
+			}
 		}
 	}
 }

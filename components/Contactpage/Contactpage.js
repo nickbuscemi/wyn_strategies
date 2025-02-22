@@ -41,7 +41,7 @@ const Contactpage = () => {
                                     <i className="ti-location-arrow"></i>
                                 </div>
                                 <h5>Address</h5>
-                                <p>131 Sequams Ln E, West Islip, NY</p>
+                                <p>P.O. Box 35, West Islip, NY 11795</p>
                             </div>
                         </div>
 
