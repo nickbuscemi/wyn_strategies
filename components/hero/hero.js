@@ -22,7 +22,7 @@ const Hero = () => {
             >
                 <SwiperSlide>
                     <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${'/images/slider/slide-1.jpg'})` }}>
-                        <div className="container">
+                        <div className="container animate__animated animate__fadeInUp">
                             <div className="slide-title">
                                 <h2>Strategic Marketing Strategies</h2>
                             </div>

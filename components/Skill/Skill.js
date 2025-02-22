@@ -6,7 +6,7 @@ const Skill = (props) => {
                         <div className="content-area">
                 <div className="left-col"></div>
                 <div className="right-col">
-                    <h2>Why we are the best choice for <br />your next project!</h2>
+                    <h2>Why we are the best choice for <br />your practice</h2>
                     <p>
                         Our team brings years of expertise in branding, web development, business consulting, and digital marketing to help your practice grow. 
                         Whether you’re building your online presence, expanding your B2B network, or launching a new brand strategy, we provide tailored solutions 
