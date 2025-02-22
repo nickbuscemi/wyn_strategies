@@ -611,7 +611,7 @@
 /*--------------------------------------------------------------
 #1.2	cta-with-team-section
 --------------------------------------------------------------*/
-.cta-with-team-section {
+/*.cta-with-team-section {
 	position: relative;
 
 	@include media-query(991px) {
@@ -772,7 +772,203 @@
 		font-size: 14px;
 		font-size: calc-rem-value(14);
 	}
+}*/
+
+/*--------------------------------------------------------------
+#1.2 cta-with-team-section
+--------------------------------------------------------------*/
+.cta-with-team-section {
+    position: relative;
+    overflow: hidden; // Ensures video does not overflow
+
+    @include media-query(991px) {
+        padding-bottom: 75px;
+    }
+
+    @include media-query(767px) {
+        padding-bottom: 65px;
+    }
+
+    /* Background Video Container */
+    .bg-video {
+        position: absolute;
+        width: 100%;
+        height: 70%;
+        left: 0;
+        top: 0;
+        overflow: hidden;
+        z-index: -1; // Ensures the video stays behind content
+
+        @include media-query(767px) {
+            height: 50%;
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; // Makes sure the video behaves like a background
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+
+    /* Background Overlay */
+    .video-overlay {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: transparentize(#1d1d1d, 0.2); // Transparent dark overlay
+        z-index: 1;
+
+        @include media-query(767px) {
+            background: #1d1d1d; // Fully dark overlay on mobile
+        }
+    }
+
+    /* CTA Content */
+    .cta-content {
+        text-align: center;
+        position: relative;
+        z-index: 2; // Ensures content appears above the video
+
+        .fi:before {
+            font-size: 85px;
+            font-size: calc-rem-value(85);
+            color: $white;
+
+            @include media-query(991px) {
+                font-size: 70px;
+                font-size: calc-rem-value(70);
+            }
+        }
+
+        h3 {
+            font-size: 38px;
+            font-size: calc-rem-value(38);
+            color: $white;
+            margin: 0.3em 0 0;
+
+            @include media-query(991px) {
+                font-size: 30px;
+                font-size: calc-rem-value(30);
+            }
+
+            @include media-query(767px) {
+                font-size: 25px;
+                font-size: calc-rem-value(25);
+            }
+        }
+    }
+
+    /* Video Button */
+    .video-holder {
+        margin-top: -17px;
+
+        .btn-wrap {
+            background: none;
+            border: 0;
+        }
+    }
+
+    .video-holder span {
+        font-size: 18px;
+        font-size: calc-rem-value(18);
+        color: $theme-primary-color;
+        display: block;
+    }
+
+    /* Team Section */
+    .team-section {
+        margin-top: 100px;
+        padding-top: 100px;
+        position: relative;
+
+        @include media-query(991px) {
+            margin-top: 80px;
+            padding-top: 80px;
+        }
+
+        &:before {
+            content: "";
+            background: transparentize($white, 0.9);
+            width: calc(100% - 30px);
+            height: 1px;
+            position: absolute;
+            left: 15px;
+            top: 0;
+        }
+    }
+
+    .title-text {
+        text-align: right;
+        margin-top: 25px;
+
+        @include media-query(991px) {
+            text-align: left;
+            margin: 25px 0 50px;
+        }
+
+        p {
+            color: $white;
+            margin: 0;
+        }
+    }
+
+    /* Team Grid */
+    .team-grids {
+        .grid {
+            width: 25%;
+            float: left;
+
+            @include media-query(991px) {
+                width: 50%;
+                margin: 0 0 25px;
+            }
+
+            @include media-query(500px) {
+                width: 100%;
+                float: none;
+            }
+        }
+
+        .details {
+            background: $white;
+            padding: 30px 25px;
+            box-shadow: 0px 6px 18.9px 2.1px rgba(0, 0, 0, 0.04);
+
+            @include media-query(767px) {
+                padding: 20px 15px;
+            }
+        }
+    }
+
+    /* Team Member Details */
+    .details {
+        h5 {
+            font-size: 16px;
+            font-size: calc-rem-value(16);
+            margin: 0 0 0.3em;
+
+            a {
+                color: $dark-gray;
+
+                &:hover {
+                    color: $theme-primary-color;
+                }
+            }
+        }
+
+        h5 + span {
+            font-size: 14px;
+            font-size: calc-rem-value(14);
+        }
+    }
 }
+
 
 
 /*--------------------------------------------------------------

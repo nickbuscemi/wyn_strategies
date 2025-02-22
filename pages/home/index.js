@@ -20,7 +20,7 @@ import Logo from '/public/images/logo.png'
 const HomePage =() => {
     return(
         <Fragment>
-            <Navbar hclass={'header-style-1 animate__animated animate__backInUp'}  Logo={Logo}/>
+            <Navbar hclass={'header-style-1'}  Logo={Logo}/>
             <Hero/>
             <Features/>
             <WorkProcess/>
