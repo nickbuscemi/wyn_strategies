@@ -1,6 +1,13 @@
 import React, { useState } from 'react';
 import SimpleReactValidator from 'simple-react-validator';
 
+const apiUrl = process.env.NEXT_PUBLIC_API_DEV
+    ? process.env.NEXT_PUBLIC_API_DEV
+    : process.env.NEXT_PUBLIC_API_PROD;
+
+console.log('Using API URL:', apiUrl); // Debugging
+
+
 const ContactForm = () => {
     const [forms, setForms] = useState({
         name: '',
@@ -31,12 +38,12 @@ const ContactForm = () => {
             setIsLoading(true); // Show loader while waiting for the response
 
             try {
-                const response = await fetch('http://localhost:4000/api/contact', {
+                const response = await fetch( apiUrl, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(forms),
                 });
-
+                        
                 if (response.ok) {
                     setForms({
                         name: '',
