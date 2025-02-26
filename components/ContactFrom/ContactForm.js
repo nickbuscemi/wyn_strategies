@@ -4,6 +4,9 @@ import SimpleReactValidator from 'simple-react-validator';
 const apiUrl = process.env.NEXT_PUBLIC_API
 
 console.log('Using API URL:', apiUrl); // Debugging
+console.log('NODE_ENV:', process.env.NODE_ENV);
+console.log('NEXT_PUBLIC_API:', process.env.NEXT_PUBLIC_API);
+
 
 
 const ContactForm = () => {
