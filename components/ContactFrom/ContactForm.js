@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import SimpleReactValidator from 'simple-react-validator';
 
-const apiUrl = process.env.NEXT_PUBLIC_API_DEV
-    ? process.env.NEXT_PUBLIC_API_DEV
-    : process.env.NEXT_PUBLIC_API_PROD;
+const apiUrl = process.env.NEXT_PUBLIC_API
 
 console.log('Using API URL:', apiUrl); // Debugging
 
