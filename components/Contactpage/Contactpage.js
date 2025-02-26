@@ -10,7 +10,6 @@ const Contactpage = () => {
                 <div className="row justify-content-center">
                     <div className="col col-lg-8">
                         <div className="section-title-s3">
-                            <span>Contact</span>
                             <h2>Get in touch</h2>
                             <p>Tell us more about what you are looking for and we will reach out shortly!</p>
                         </div>

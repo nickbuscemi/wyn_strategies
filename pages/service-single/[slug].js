@@ -74,7 +74,7 @@ const ServiceSinglePage = (props) => {
 
                                 <ServiceTab />
 
-                                <div className="request-service">
+                                {/*<div className="request-service">
                                     <h3>Request this service</h3>
                                     <form method="post" onSubmit={SubmitHandler}>
                                         <div>
@@ -90,6 +90,9 @@ const ServiceSinglePage = (props) => {
                                             <button type="submit">Submit</button>
                                         </div>
                                     </form>
+                                </div>*/}
+                                <div className="">
+                                    <a href='/contact'><button className="theme-btn">Request This Service</button></a>
                                 </div>
                             </div>
                         </div>

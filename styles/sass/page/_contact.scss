@@ -157,3 +157,21 @@
 	}
 
 }
+
+.success-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 10vh; /* Centers it vertically within the viewport */
+}
+
+.success-message p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.success-message .theme-btn {
+    margin-top: 1rem;
+}

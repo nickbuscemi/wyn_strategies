@@ -20,7 +20,7 @@ const Footer = (props) => {
                         <div className="col col-lg-4 col-md-6 col-12">
                             <div className="widget about-widget">
                                 <div className="logo widget-title">
-                                    <Image src={Logo} alt="logo" />
+                                    <Image src={Logo} alt="logo"/>
                                 </div>
                             </div>
                         </div>
@@ -46,9 +46,10 @@ const Footer = (props) => {
                                     <h3>Contact Info</h3>
                                 </div>
                                 <ul>
-                                    <li>Phone: +1 (516) 310-4738</li>
-                                    <li>Email: msutherland@wynstrategies.com</li>
+                                    <li>Phone: <a href="tel:+15163104738">+1 (516) 310-4738</a></li>
+                                    <li>Email: <a href="mailto:msutherland@wynstrategies.com">msutherland@wynstrategies.com</a></li>
                                 </ul>
+
                             </div>
                         </div>
                         {/*<div className="col col-lg-3 col-md-6 col-12">
