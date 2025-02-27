@@ -14,20 +14,25 @@ const servicesSubMenu = Services.map((service) => ({
 
 const menus = [
   {
-    id: 3,
-    title: 'Pages',
-    link: '/',
-    submenu: [
-      { id: 31, title: 'About', link: '/about' },
-      { id: 322, title: 'Testimonials', link: '/testimonials' },
-      { id: 34, title: 'Team', link: '/team' }
-    ]
-  },
-  {
     id: 6,
     title: 'Services',
     link: '/services',
     submenu: servicesSubMenu, // <--- Inserted dynamically
+  },
+  {
+    id: 2,
+    title: 'About',
+    link: '/about',
+  },
+  {
+    id: 9,
+    title: 'Testimonials',
+    link: '/testimonials',
+  },
+  {
+    id: 10,
+    title: 'Our Team',
+    link: '/team',
   },
   {
     id: 7,
@@ -36,7 +41,7 @@ const menus = [
   },
   
   {
-    id: 88,
+    id: 8,
     title: 'Contact',
     link: '/contact',
   },
