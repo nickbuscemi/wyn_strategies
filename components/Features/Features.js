@@ -10,10 +10,9 @@ const Features = () => {
               
               {/* Feature #1: Business to Business */}
               <div className="grid">
-                <div className="icon">
-                  {/* Icon from your services data for "Business to Business" */}
+                {/*<div className="icon">
                   <i className="fi flaticon-stats"></i>
-                </div>
+                </div>*/}
                 <h3>Website Development and Online Presence</h3>
                 <p>
                   Establish a strong online presence with a professionally designed website. 
@@ -24,11 +23,10 @@ const Features = () => {
 
               {/* Feature #2: Market Research */}
               <div className="grid">
-                <div className="icon">
-                  {/* Keeping the diamond icon from your original snippet */}
+                {/*<div className="icon">
                   <i className="fi flaticon-start"></i>
 
-                </div>
+                </div>*/}
                 <h3>B2B Medical Sales</h3>
                 <p>
                   Strengthen partnerships with healthcare providers and medical offices. 
@@ -39,9 +37,9 @@ const Features = () => {
 
               {/* Feature #3: Social Media */}
               <div className="grid">
-                <div className="icon">
+                {/*<div className="icon">
                 <i className="fi flaticon-diamond"></i>
-                </div>
+                </div>*/}
                 <h3>Branding and Rebranding</h3>
                 <p>
                   Strengthen your medical office or law practice reputation with a cohesive brand identity. 

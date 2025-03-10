@@ -39,7 +39,7 @@ const Teams = [
     },
     {
         Id: '2',
-        tImg: timg2,
+        tImg: timg1,
         name: 'Nicholas Buscemi',
         slug: 'Nicholas-Buscemi',
         title: 'Lead Developer',
