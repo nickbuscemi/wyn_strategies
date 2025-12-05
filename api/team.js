@@ -1,7 +1,7 @@
-import timg1 from '/public/images/team/img-1.jpg'
-import timg2 from '/public/images/team/nb.png'
-import timg3 from '/public/images/team/img-3.jpg'
-import timg4 from '/public/images/team/img-4.jpg'
+import timg1 from '/public/site-images/headshots/melissa-hs.jpg'
+import timg2 from '/public/site-images/headshots/nick-hs.jpg'
+import timg3 from '/public/site-images/headshots/carolann-hs.jpg'
+import timg4 from '/public/site-images/headshots/paul-hs.jpg'
 
 const Teams = [
     {
@@ -39,7 +39,7 @@ const Teams = [
     },
     {
         Id: '2',
-        tImg: timg1,
+        tImg: timg2,
         name: 'Nicholas Buscemi',
         slug: 'Nicholas-Buscemi',
         title: 'Lead Developer',
@@ -68,8 +68,8 @@ const Teams = [
     {
         Id: '3',
         tImg: timg3,
-        name: 'Carolann Yazzo',
-        slug: 'Carolann-Yazzo',
+        name: 'Carolann Sutherland, PA-C',
+        slug: 'Carolann-Sutherland',
         title: 'Medical Consultant',
         phone: '654-54851-5447',
         email: 'necterbuddy@hotmail.com',
