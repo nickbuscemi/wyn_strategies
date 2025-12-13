@@ -1,7 +1,7 @@
 import simg from '/public/images/service-single/img-1.jpg'
-import simg2 from '/public/images/service-single/img-2.jpg'
+import simg2 from '/public/site-images/Services/Web/web-hero.jpg'
 import simg3 from '/public/images/service-single/img-3.jpg'
-import simg4 from '/public/images/service-single/img-4.jpg'
+import simg4 from '/public/site-images/Services/contract/contract.jpg'
 import simg5 from '/public/images/service-single/img-5.jpg'
 import simg6 from '/public/images/service-single/img-3.jpg'
 
@@ -11,7 +11,7 @@ const Services = [
     {
         Id: '2',
         sImg: simg2,
-        sTitle: 'Website Development & Online Presence',
+        sTitle: 'Marketing, Digital Presence & Website Optimization',
         slug: 'website-development-online-presence',
         description: 'A well-designed website is often the first impression prospective patients have of your practice, and first impressions last forever.',
         des2: 'We ensure your site not only looks amazing but also works effectively, captivating visitors from the moment they arrive.',
@@ -20,21 +20,20 @@ const Services = [
         pageTitle: '/images/page-titles/web-title.png',
         additionalContent: [
             {
-                title1: 'Custom Design & Development',
-                paragraph: 'We create visually appealing websites that reflect your brand identity. Our designs are conversion-focused and optimized for user engagement from day one.',
-                subParagraph: 'Whether you need a corporate landing page or a full-fledged eCommerce platform, we tailor solutions specific to your goals.'
+                title1: 'We help practices strengthen visibility while ensuring their digital presence supports—not undermines—growth.',
+                paragraph: '',
+                subParagraph: ''
             },
             {
-                title2: 'Hosting & Maintenance',
-                paragraph: 'Enjoy peace of mind with secure, reliable hosting solutions and regular maintenance updates. We ensure your website runs smoothly, day and night.',
+                title2: 'We act as a strategic extension of your team to ensure marketing efforts remain effective and competitive.',
+                paragraph: '',
             },
         ],
         features: [
-            'User-centric design approach for higher conversions',
-            'Mobile-responsive layouts across all devices',
-            'SEO-friendly site structure and content',
-            'Integration with marketing automation tools',
-            'Robust cybersecurity measures',
+            'Healthcare and legal marketing strategy',
+            'Website performance and SEO evaluation',
+            'Ongoing optimization guidance',
+            'Liaison with existing web and digital vendors to ensure alignment, rankings, and performance',
             'Scalability for future growth',
         ],
         serviceFeatures: [
@@ -46,18 +45,18 @@ const Services = [
         serviceTabs: [
             {
                 id: '1',
-                title: 'Planning & Strategy',
-                content: 'We begin with a thorough analysis of your goals and target audience to craft a custom plan for your website.'
+                title: 'Strategy',
+                content: 'We act as a strategic liason between practices and web developers, ensuring websites perform, rank, and support growth.'
             },
             {
                 id: '2',
-                title: 'Design & Development',
-                content: 'Our team builds user-friendly interfaces with clean code, ensuring seamless performance and intuitive navigation.'
+                title: 'Oversight',
+                content: 'We act as a strategic liason between practices and web developers, ensuring websites perform, rank, and support growth.'
             },
             {
                 id: '3',
-                title: 'Launch & Optimize',
-                content: 'We assist with the full launch process and continuously optimize your site based on real-time user feedback.'
+                title: 'Optimization',
+                content: 'We act as a strategic liason between practices and web developers, ensuring websites perform, rank, and support growth.'
             },
         ],
     },
@@ -75,22 +74,20 @@ const Services = [
         pageTitle: '/images/page-titles/btob-title.png',
         additionalContent: [
             {
-                title1: 'Targeted Outreach & Networking',
-                paragraph: 'We research and connect you with the most relevant partners for strategic business growth.',
-                subParagraph: 'By leveraging existing networks and forging new ones, we expand your professional influence.'
+                title1: 'B2B Referral Development',
+                paragraph: 'We build targeted referral networks through hands-on, field based out-each, that cannot be replicated through digital efforts alone.',
+                subParagraph: ''
             },
             {
-                title2: 'Collaborative Marketing',
-                paragraph: 'We develop joint campaigns, cross-promotions, and co-branded events to maximize visibility for both parties.',
+                title2: 'This includes;',
+                paragraph: '',
             },
         ],
         features: [
-            'Industry-specific prospecting and lead generation',
-            'Customized pitches and value propositions',
-            'Face-to-face introductions with key stakeholders',
-            'Ongoing account management and relationship nurturing',
-            'Comprehensive communication strategies',
-            'Performance tracking and ROI measurement',
+            'Physician liaison outreach and relationship development',
+            'In person, busines-to-business engagement',
+            'Identification of strategic referral partners',
+            'Longterm relationship management that drives consistent reciprication',
         ],
         serviceFeatures: [
             'Robust B2B marketing expertise',
@@ -102,17 +99,17 @@ const Services = [
             {
                 id: '1',
                 title: 'Discovery & Research',
-                content: 'We analyze your practice objectives and identify ideal B2B partners for collaboration.'
+                content: 'Our approach focuses on trusted, personal relationships that create durable referral pathways over time.'
             },
             {
                 id: '2',
                 title: 'Outreach & Connection',
-                content: 'Our team handles the outreach process, setting up meetings, and formalizing new relationships.'
+                content: 'Our approach focuses on trusted, personal relationships that create durable referral pathways over time.'
             },
             {
                 id: '3',
                 title: 'Collaboration & Growth',
-                content: 'We develop and execute collaborative marketing plans that benefit all parties involved.'
+                content: 'Our approach focuses on trusted, personal relationships that create durable referral pathways over time.'
             },
         ],
     },
@@ -185,9 +182,9 @@ const Services = [
         pageTitle: '/images/page-titles/contract-title.png',
         additionalContent: [
             {
-                title1: 'Comprehensive Contract Reviews',
-                paragraph: 'We break down every detail of your agreements to ensure transparent terms and optimal reimbursement rates.',
-                subParagraph: 'Our team can identify red flags, negotiate essential clauses, and secure better terms for your practice.'
+                title1: 'Payer strategy & Contracting',
+                paragraph: 'We support practices in navigating complex payer environments to improve positioning, reimbursement, and long-term stability.',
+                subParagraph: ''
             },
             {
                 title2: 'Strategic Planning & Compliance',
