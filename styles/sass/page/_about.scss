@@ -102,7 +102,7 @@
 		}
 
 		.left-col {
-			@include background-style("/images/about/skill-left-col.png", center center, cover, no-repeat, local);
+			@include background-style("/images/about/skill-left-col.jpg", center center, cover, no-repeat, local);
 			float: left;
 			height: 100%;
 			position: absolute;

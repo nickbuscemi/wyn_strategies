@@ -29,7 +29,7 @@ const HomePage =() => {
             <br></br><br></br>
             <ServiceSection/>
             <Testimonial/>
-            <ProjectSection/>
+            {/*<ProjectSection/>*/}
             {/*<FunFact/>*/}
             <TeamSection/>
             {/*<PartnerSection/>*/}

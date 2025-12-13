@@ -34,12 +34,12 @@ const menus = [
     title: 'Our Team',
     link: '/team',
   },
-  {
+  /*{
     id: 7,
     title: 'Projects',
     link: '/projects',
-  },
-  
+  },*/
+
   {
     id: 8,
     title: 'Contact',

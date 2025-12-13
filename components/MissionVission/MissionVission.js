@@ -12,24 +12,11 @@ const MissionVission = () => {
                     <div className="col col-xl-8 col-lg-10">
                         <div className="title-area">
                             <h2>
-                                "As I have been in this vertical for well over a decade, I've seen the
-                                landscape change many times. During this journey, I've worked with
-                                some of the Island’s most successful Neurosurgical, Pain Management,
-                                and legal groups, including NY Pain Consultants, NSPC, National Spine
-                                and Pain, New York Spine Institute, Long Island Brain & Spine, and
-                                several health-affiliated law firms."
+                                WYN Strategies was created to support independent medical and legal practices navigating an increasingly aggressive consolidation landscape—particularly across Long Island—where hospital systems and private equity–backed groups continue to acquire independent practices at scale.
                             </h2>
                             <br></br>
                             <p>
-                                The comprehensive overview below can be tailored to your specific
-                                needs. Although it is a broad look at what’s possible, it’s nearly
-                                impossible to convey in just a few paragraphs all the customized
-                                directions and expansion plans we can develop for your unique goals.
-                            </p>
-                            <p>
-                                With 2025 upon us, I can’t think of a better time to formalize this
-                                year’s intentions! I look forward to continuing a conversation that
-                                puts your practice’s needs at the forefront of the new year’s calendar.
+                                With 25+ years of combined senior-level experience in healthcare marketing, business development, referral strategy, and payer dynamics, our team provides hands-on consulting that helps practices strengthen operations, grow referral networks, improve digital performance, and remain competitive without sacrificing independence.
                             </p>
                         </div>
                     </div>
@@ -44,9 +31,7 @@ const MissionVission = () => {
                                 </div>
                                 <h3>Our Mission</h3>
                                 <p>
-                                    My mission is to guide independent practices and small businesses
-                                    toward sustainable growth by leveraging proven strategies and
-                                    industry partnerships. 
+                                    Our mission is to support independent medical and legal practices by delivering hands-on strategy, execution, and accountability that protect independence, strengthen operations, and drive sustainable growth in an increasingly consolidated landscape.
                                 </p>
                             </div>
                             <div className="grid">
@@ -55,25 +40,16 @@ const MissionVission = () => {
                                 </div>
                                 <h3>Our Vision</h3>
                                 <p>
-                                    We envision a healthcare and legal landscape where
-                                    independent practices continue to flourish. By harnessing the power
-                                    of innovation, strategic relationships, and patient/client centered
-                                    approaches, we can pave the way for stronger, more personalized
-                                    services that truly stand the test of time.
+                                    We envision a healthcare and legal environment where independent practices continue to thrive despite hospital systems and private equity consolidation. By combining strategic insight, operational expertise, and real-world execution, we help practices remain competitive, relevant, and positioned for long-term success.
                                 </p>
                             </div>
                             <div className="grid">
                                 <div className="img-holder">
                                     <Image src={abimg3} alt="Our strategies" />
                                 </div>
-                                <h3>Our Strategies</h3>
+                                <h3>Our Strategy</h3>
                                 <p>
-                                    Drawing from my extensive experience in marketing, brand
-                                    development, and strategic outreach, we tailor multi-pronged growth
-                                    plans for each client. By cultivating key referral sources,
-                                    enhancing online visibility, and streamlining operational processes,
-                                    we ensure that practices are equipped to exceed
-                                    yearly objectives.
+                                    WYN Strategies works directly with leadership teams to build growth from the inside out. Drawing on over 25 years of combined senior-level experience in healthcare marketing, business development, and payer strategy, we focus on referral expansion, physician liaison development, digital visibility, and operational alignment—ensuring independent practices can compete effectively against larger, corporate-backed organizations.
                                 </p>
                             </div>
                         </div>
