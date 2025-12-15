@@ -2,6 +2,7 @@ import timg1 from '/public/site-images/headshots/melissa-hs.jpg'
 import timg2 from '/public/site-images/headshots/nick-hs.jpg'
 import timg3 from '/public/site-images/headshots/carolann-hs.jpg'
 import timg4 from '/public/site-images/headshots/paul-hs.jpg'
+import timg5 from '/public/site-images/headshots/IMG_8558.jpg'
 
 const Teams = [
     {
@@ -10,8 +11,8 @@ const Teams = [
         name: 'Melissa Sutherland',
         slug: 'Melissa-Sutherland',
         title: 'Founder',
-        phone: '654-54851-5447',
-        email: 'necterbuddy@hotmail.com',
+        phone: '',
+        email: 'msutherland@wynstrategies.com',
         experience: '11 Years',
         address: '45 Big Fella Street, Sweet Home, Bela',
         about: 'Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame. It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather.',
@@ -71,12 +72,12 @@ const Teams = [
         name: 'Carolann Sutherland, PA-C',
         slug: 'Carolann-Sutherland',
         title: 'Medical Consultant',
-        phone: '654-54851-5447',
-        email: 'necterbuddy@hotmail.com',
+        phone: '',
+        email: 'csutherland@wynstrategies.com',
         experience: '11 Years',
         address: '45 Big Fella Street, Sweet Home, Bela',
-        about: 'Samsa was a travelling salesman...',
-        experienceDetails: 'Above it there hung a picture...',
+        about: '',
+        experienceDetails: '',
         education: 'Above it there hung a picture...',
         achievements: ['Medical Excellence Award 2019', 'Certified Health Consultant'],
         skills: [
@@ -97,8 +98,8 @@ const Teams = [
         name: 'Takao Mangulis',
         slug: 'Takao-Mangulis',
         title: 'Contract Consultant',
-        phone: '654-54851-5447',
-        email: 'necterbuddy@hotmail.com',
+        phone: '',
+        email: 'tmangulis@wynstrategies.com',
         experience: '11 Years',
         address: '45 Big Fella Street, Sweet Home, Bela',
         about: 'Samsa was a travelling salesman...',
@@ -109,6 +110,29 @@ const Teams = [
             { skill: 'Legal Consulting', percentage: '95%' },
             { skill: 'Contract Negotiation', percentage: '92%' },
         ],
+        socialLinks: {
+            facebook: '#',
+            twitter: '#',
+            linkedin: '#',
+            pinterest: '#',
+            instagram: '#',
+        },
+    },
+    {
+        Id: '5',
+        tImg: timg5,
+        name: 'New Team Member',
+        slug: 'New-Team-Member',
+        title: 'Consultant',
+        phone: '555-555-5555',
+        email: 'newmember@wynstrategies.com',
+        experience: '',
+        address: '',
+        about: '',
+        experienceDetails: '',
+        education: '',
+        achievements: [],
+        skills: [],
         socialLinks: {
             facebook: '#',
             twitter: '#',

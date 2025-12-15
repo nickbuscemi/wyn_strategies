@@ -2,6 +2,9 @@ import React from 'react'
 import Link from "next/link";
 import Team from '../../api/team'
 import Image from 'next/image';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 const ClickHandler = () => {
@@ -9,6 +12,40 @@ const ClickHandler = () => {
 }
 
 const TeamSectionS2 = (props) => {
+
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        arrows: true,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
+    };
 
     return (
         <div className={`team-section section-padding ${props.tmClass}`}>
@@ -25,7 +62,7 @@ const TeamSectionS2 = (props) => {
                 </div>
                 <div className="row">
                     <div className="col col-xs-12">
-                        <div className="team-grids clearfix">
+                        <Slider {...settings} className="team-carousel">
                             {Team.map((team, aitem) => (
                                 <div className="grid" key={aitem}>
                                     <div className="img-holder">
@@ -37,8 +74,7 @@ const TeamSectionS2 = (props) => {
                                     </div>
                                 </div>
                             ))}
-
-                        </div>
+                        </Slider>
                     </div>
                 </div>
             </div>

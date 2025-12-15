@@ -50,7 +50,7 @@ const TeamSinglePage = () => {
                         </div>
 
                         {/* Main Content */}
-                        <div className="col col-lg-8 col-12">
+                        <div className="col col-lg-6 col-12">
                             <div className="team-single-content">
                                 <div className="team">
                                     <div className="img-holder">
@@ -63,8 +63,6 @@ const TeamSinglePage = () => {
                                             <ul>
                                                 <li><i className="ti-mobile"></i><span>Phone: </span>{TeamDetails.phone}</li>
                                                 <li><i className="ti-email"></i><span>Email: </span>{TeamDetails.email}</li>
-                                                <li><i className="ti-timer"></i><span>Experience: </span>{TeamDetails.experience}</li>
-                                                <li><i className="ti-location-pin"></i><span>Address: </span>{TeamDetails.address}</li>
                                             </ul>
                                         </div>
                                         <div className="social">
@@ -112,7 +110,7 @@ const TeamSinglePage = () => {
                                     </div>*/}
 
                                     {/* Contact Form */}
-                                    <h2>Contact Me</h2>
+                                    {/*<h2>Contact Me</h2>
                                     <div className="contact-form">
                                         <form method="post" onSubmit={SubmitHandler}>
                                             <div>
@@ -128,7 +126,7 @@ const TeamSinglePage = () => {
                                                 <button type="submit" className="theme-btn">Submit</button>
                                             </div>
                                         </form>
-                                    </div>
+                                    </div>*/}
                                 </div>
                             </div>
                         </div>

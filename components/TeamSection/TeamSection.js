@@ -3,6 +3,9 @@ import Link from "next/link";
 import Team from "../../api/team";
 import ModalVideo from "react-modal-video";
 import Image from "next/image";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const ClickHandler = () => {
     window.scrollTo(10, 0);
@@ -10,6 +13,40 @@ const ClickHandler = () => {
 
 const TeamSection = (props) => {
     const [isOpen, setOpen] = useState(false);
+
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 6000,
+        arrows: true,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
+    };
 
     return (
         <section className="cta-with-team-section section-padding">
@@ -60,13 +97,13 @@ const TeamSection = (props) => {
 
                     <div className="row">
                         <div className="col col-xs-12">
-                            <div className="team-grids clearfix">
+                            <Slider {...settings} className="team-carousel">
                                 {Team.map((team, aitem) => (
                                     <div className="grid" key={aitem}>
                                         <div className="img-holder">
                                             <Image src={team.tImg} alt={team.name} />
                                         </div>
-                                        <div className="details">
+                                        <div className="details pt-3">
                                             <h5>
                                                 <Link
                                                     onClick={ClickHandler}
@@ -79,7 +116,7 @@ const TeamSection = (props) => {
                                         </div>
                                     </div>
                                 ))}
-                            </div>
+                            </Slider>
                         </div>
                     </div>
                 </div>

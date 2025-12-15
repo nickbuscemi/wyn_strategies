@@ -114,7 +114,7 @@ const Services = [
         ],
     },
     // 1) Branding & Rebranding (unchanged)
-    {
+    /*{
         Id: '1',
         sImg: simg,
         sTitle: 'Branding & Rebranding',
@@ -166,7 +166,7 @@ const Services = [
                 content: 'We ensure a seamless brand rollout across digital and print assets, helping you maintain consistency and recognition.'
             },
         ],
-    },
+    },*/
     
 
     // 6) Contract Consulting
@@ -225,7 +225,7 @@ const Services = [
     },
 
     // 3) Social Media
-    {
+    /*{
         Id: '3',
         sImg: simg3,
         sTitle: 'Social Media and Video Production',
@@ -277,7 +277,7 @@ const Services = [
                 content: 'We monitor performance metrics to refine future campaigns and boost overall social media ROI.'
             },
         ],
-    },
+    },*/
 
     /* 5) Video Production
     {
@@ -334,7 +334,7 @@ const Services = [
     },*/
 
     // 7) Other Relevant Marketing Services
-    {
+    /*{
         Id: '7',
         sImg: simg5,
         sTitle: 'Other Relevant Marketing Services',
@@ -386,7 +386,7 @@ const Services = [
                 content: 'Through regular analytics reviews, we tweak and improve strategies, guaranteeing sustainable, long-term success.'
             },
         ],
-    },
+    },*/
 ];
 
 export default Services;
