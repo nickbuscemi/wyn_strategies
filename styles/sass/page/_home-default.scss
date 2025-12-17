@@ -787,6 +787,8 @@
 
     @include media-query(767px) {
         padding-bottom: 65px;
+        overflow-x: hidden;
+        max-width: 100%;
     }
 
     /* Background Video Container */
@@ -915,6 +917,35 @@
         p {
             color: $white;
             margin: 0;
+        }
+    }
+
+    /* Team Carousel */
+    .team-carousel {
+        @include media-query(767px) {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .slick-list {
+            @include media-query(767px) {
+                margin: 0;
+                padding: 0 !important;
+            }
+        }
+
+        .slick-track {
+            @include media-query(767px) {
+                margin: 0;
+            }
+        }
+
+        .slick-slide {
+            @include media-query(767px) {
+                padding: 0 10px;
+            }
         }
     }
 

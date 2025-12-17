@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 html {
     font-size: $base-font-size + px;
-    
+
 }
 
 /* {
@@ -87,11 +87,11 @@ img {
 
 .box-style {
     padding: 0 40px;
-    
+
     @include media-query(1199px) {
         padding: 0 30px;
     }
-    
+
     @include media-query(991px) {
         padding: 0;
     }

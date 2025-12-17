@@ -1,7 +1,8 @@
 import simg from '/public/images/service-single/img-1.jpg'
-import simg2 from '/public/site-images/Services/Web/web-hero.jpg'
+import simg2 from '/public/site-images/dev1.jpg'
 import simg3 from '/public/images/service-single/img-3.jpg'
-import simg4 from '/public/site-images/Services/contract/contract.jpg'
+import simg4 from '/public/site-images/paul1.jpg'
+import simg4b2b from '/public/site-images/Services/contract/contract.jpg'
 import simg5 from '/public/images/service-single/img-5.jpg'
 import simg6 from '/public/images/service-single/img-3.jpg'
 
@@ -17,7 +18,7 @@ const Services = [
         des2: 'We ensure your site not only looks amazing but also works effectively, captivating visitors from the moment they arrive.',
         des3: 'Our team builds a credible and reliable online presence that is mobile-friendly, SEO-optimized, and easily navigable for the best user experience.',
         icon: 'flaticon-suitcase',
-        pageTitle: '/images/page-titles/web-title.png',
+        pageTitle: '/site-images/Heros/dev2.jpg',
         additionalContent: [
             {
                 title1: 'We help practices strengthen visibility while ensuring their digital presence supports—not undermines—growth.',
@@ -64,7 +65,7 @@ const Services = [
     // 4) Business to Business
     {
         Id: '4',
-        sImg: simg4,
+        sImg: simg4b2b,
         sTitle: 'Business to Business',
         slug: 'business-to-business',
         description: 'B2B marketing is about opening doors and forming strong partnerships—an essential component for your practice’s long-term growth.',

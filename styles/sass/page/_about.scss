@@ -19,7 +19,7 @@
 		margin: 0 -15px;
 
 		@include media-query(767px) {
-			margin: 0 -7.5px;
+			margin: 0;
 		}
 	}
 
@@ -33,13 +33,14 @@
 		}
 
 		@include media-query(767px) {
-			width: calc(50% - 15px);
-			margin: 0 7.5px 50px;
+			width: 100%;
+			margin: 0 0 30px;
 		}
 
 		@include media-query(600px) {
-			width: calc(100% - 15px);
+			width: 100%;
 			float: none;
+			margin: 0 0 30px;
 		}
 	}
 
@@ -293,6 +294,40 @@
 --------------------------------------------------------------*/
 .team-section {
 	padding-top: 0;
+
+	@include media-query(767px) {
+		overflow-x: hidden;
+		max-width: 100%;
+	}
+
+	/* Team Carousel */
+	.team-carousel {
+		@include media-query(767px) {
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			max-width: 100%;
+		}
+
+		.slick-list {
+			@include media-query(767px) {
+				margin: 0;
+				padding: 0 !important;
+			}
+		}
+
+		.slick-track {
+			@include media-query(767px) {
+				margin: 0;
+			}
+		}
+
+		.slick-slide {
+			@include media-query(767px) {
+				padding: 0 10px;
+			}
+		}
+	}
 
 	.title-text {
 		text-align: right;

@@ -15,10 +15,10 @@ const AboutPage = () => {
     return (
         <Fragment>
             <Navbar hclass={'header-style-3'} Logo={Logo} />
-            <PageTitle 
-                pageTitle={'About Us'} 
-                pagesub={'About'} 
-                bgImage={'/images/page-titles/about-title.png'} // Pass different images per page
+            <PageTitle
+                pageTitle={'About Us'}
+                pagesub={'About'}
+                bgImage={'/site-images/Heros/about1.jpg'} // Pass different images per page
             />
             <MissionVission />
             <Skill />
