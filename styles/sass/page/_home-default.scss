@@ -354,7 +354,7 @@
 	}
 
 	.testimonials-area p + span {
-		color: $theme-primary-color;
+		color: $white;
 		text-transform: uppercase;
 
 		@include media-query(991px) {

@@ -15,10 +15,23 @@ const ContactForm = () => {
         email: '',
         subject: '',
         phone: '',
+        website: '',
         message: ''
     });
 
-    const [validator] = useState(new SimpleReactValidator({ className: 'errorMessage' }));
+    const [validator] = useState(new SimpleReactValidator({
+        className: 'errorMessage',
+        validators: {
+            phone_flexible: {
+                message: 'The :attribute must be a valid phone number.',
+                rule: (val) => {
+                    // Accepts formats: (xxx) xxx-xxxx, x-xxx-xxx-xxxx, xxx-xxx-xxxx, xxx xxx xxxx, (xxx) xxx xxxx
+                    const phoneRegex = /^(\+?1[-.\s]?)?(\(?\d{3}\)?[-.\s]?)?\d{3}[-.\s]?\d{4}$/;
+                    return phoneRegex.test(val);
+                }
+            }
+        }
+    }));
     const [submissionSuccess, setSubmissionSuccess] = useState(false);
     const [isLoading, setIsLoading] = useState(false); // Loader state
 
@@ -52,6 +65,7 @@ const ContactForm = () => {
                         email: '',
                         subject: '',
                         phone: '',
+                        website: '',
                         message: ''
                     });
 
@@ -124,7 +138,7 @@ const ContactForm = () => {
                                     onChange={changeHandler}
                                     placeholder="Your Phone"
                                 />
-                                {validator.message('phone', forms.phone, 'required|phone')}
+                                {validator.message('phone', forms.phone, 'required|phone_flexible')}
                             </div>
                         </div>
                         <div className="col col-lg-6 col-12">
@@ -136,14 +150,25 @@ const ContactForm = () => {
                                     name="subject"
                                 >
                                     <option value="">Select</option>
-                                    <option>Website Development and Online Presence</option>
+                                    <option>Marketing, Digital Presence & Website Optimization</option>
                                     <option>Business to Business</option>
-                                    <option>Branding and Rebranding</option>
                                     <option>Contract Consulting</option>
-                                    <option>Social Media and Video Production</option>
-                                    <option>Other Relevant Marketing Services</option>
+                                    <option>Other</option>
                                 </select>
                                 {validator.message('subject', forms.subject, 'required')}
+                            </div>
+                        </div>
+                        <div className="col col-lg-12 col-12">
+                            <div className="form-field">
+                                <input
+                                    value={forms.website}
+                                    type="text"
+                                    name="website"
+                                    onBlur={changeHandler}
+                                    onChange={changeHandler}
+                                    placeholder="Website or Relevant Links (Optional)"
+                                />
+                                {forms.website && validator.message('website', forms.website, 'url')}
                             </div>
                         </div>
                         <div className="col col-lg-12 col-12 comment-area">

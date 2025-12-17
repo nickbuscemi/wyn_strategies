@@ -42,8 +42,7 @@ const ServiceSection = () => {
         <div className="row">
           <div className="col col-lg-8 offset-lg-2 col-md-10 offset-md-1">
             <div className="section-title-s3">
-              <span>Services</span>
-              <h2>For your Practice</h2>
+              <h2>Services For Your Practice</h2>
             </div>
           </div>
         </div>
