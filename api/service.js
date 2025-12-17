@@ -7,12 +7,12 @@ import simg6 from '/public/images/service-single/img-3.jpg'
 
 
 const Services = [
-    // 2) Website Development & Online Presence
+    // 2) Marketing, Digital Presence & Website Optimization
     {
         Id: '2',
         sImg: simg2,
         sTitle: 'Marketing, Digital Presence & Website Optimization',
-        slug: 'website-development-online-presence',
+        slug: 'marketing-digital-presence-website-optimization',
         description: 'A well-designed website is often the first impression prospective patients have of your practice, and first impressions last forever.',
         des2: 'We ensure your site not only looks amazing but also works effectively, captivating visitors from the moment they arrive.',
         des3: 'Our team builds a credible and reliable online presence that is mobile-friendly, SEO-optimized, and easily navigable for the best user experience.',

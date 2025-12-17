@@ -382,7 +382,7 @@
 	}
 
 	@include media-query(767px) {
-		padding-bottom: 120px;
+		display: none;
 	}
 
 	&:before {

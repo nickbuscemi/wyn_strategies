@@ -57,8 +57,8 @@ const Header = (props) => {
                                 <Link onClick={ClickHandler} href="/services">Services</Link>
                                 <ul className="sub-menu">
                                     <li>
-                                        <Link onClick={ClickHandler} href="/service-single/website-development-online-presence">
-                                            Website Development & Online Presence
+                                        <Link onClick={ClickHandler} href="/service-single/marketing-digital-presence-website-optimization">
+                                            Marketing, Digital Presence & Website Optimization
                                         </Link>
                                     </li>
                                     <li>
@@ -67,26 +67,8 @@ const Header = (props) => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link onClick={ClickHandler} href="/service-single/branding-rebranding">
-                                            Branding & Rebranding
-                                        </Link>
-                                    </li>
-
-                                    <li>
                                         <Link onClick={ClickHandler} href="/service-single/contract-consulting">
                                             Contract Consulting
-                                        </Link>
-                                    </li>
-                
-                                    <li>
-                                        <Link onClick={ClickHandler} href="/service-single/social-media">
-                                            Social Media and Video Production
-                                        </Link>
-                                    </li>
-                                    
-                                    <li>
-                                        <Link onClick={ClickHandler} href="/service-single/other-marketing-services">
-                                            Other Relevant Marketing Services
                                         </Link>
                                     </li>
                                 
