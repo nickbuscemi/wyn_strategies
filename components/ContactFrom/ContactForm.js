@@ -100,7 +100,16 @@ const ContactForm = () => {
                     </button>
                 </div>
             ) : (
-                <form onSubmit={submitHandler} className="contact-validation-active">
+                <>
+                    <div className="row justify-content-center">
+                        <div className="col col-lg-8">
+                            <div className="section-title-s3">
+                                <h2>Get in touch</h2>
+                                <p>Tell us more about what you are looking for and we will reach out shortly!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form onSubmit={submitHandler} className="contact-validation-active">
                     <div className="row">
                         <div className="col col-lg-6 col-12">
                             <div className="form-field">
@@ -187,6 +196,7 @@ const ContactForm = () => {
                         </div>
                     </div>
                 </form>
+                </>
             )}
         </div>
     );

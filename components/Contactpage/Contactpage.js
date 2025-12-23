@@ -7,14 +7,6 @@ const Contactpage = () => {
     return (
         <section className="contact-pg-section section-padding">
             <div className="container">
-                <div className="row justify-content-center">
-                    <div className="col col-lg-8">
-                        <div className="section-title-s3">
-                            <h2>Get in touch</h2>
-                            <p>Tell us more about what you are looking for and we will reach out shortly!</p>
-                        </div>
-                    </div>
-                </div>
                 <div className="row">
                     <div className="col col-xs-12">
                         <div className="contact-form">
