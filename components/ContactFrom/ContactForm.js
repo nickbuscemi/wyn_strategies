@@ -168,7 +168,6 @@ const ContactForm = () => {
                                     onChange={changeHandler}
                                     placeholder="Website or Relevant Links (Optional)"
                                 />
-                                {forms.website && validator.message('website', forms.website, 'url')}
                             </div>
                         </div>
                         <div className="col col-lg-12 col-12 comment-area">
