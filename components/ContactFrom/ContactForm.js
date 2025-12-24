@@ -3,12 +3,6 @@ import SimpleReactValidator from 'simple-react-validator';
 
 const apiUrl = process.env.NEXT_PUBLIC_API
 
-console.log('Using API URL:', apiUrl); // Debugging
-console.log('NODE_ENV:', process.env.NODE_ENV);
-console.log('NEXT_PUBLIC_API:', process.env.NEXT_PUBLIC_API);
-
-
-
 const ContactForm = () => {
     const [forms, setForms] = useState({
         name: '',
@@ -72,11 +66,9 @@ const ContactForm = () => {
                     setSubmissionSuccess(true);
                 } else {
                     const errorData = await response.json();
-                    console.log('Error response:', errorData);
                     alert('Error submitting form: ' + (errorData.msg || 'Unknown error'));
                 }
             } catch (error) {
-                console.error('Fetch error:', error);
                 alert('Could not submit the form. Please try again later.');
             } finally {
                 setIsLoading(false); // Hide loader regardless of success or failure
