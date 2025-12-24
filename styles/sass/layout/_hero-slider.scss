@@ -16,7 +16,7 @@
 
 	@include media-query(767px) {
 		height: 900px;
-		margin-top: -70x;
+		margin-top: -165px;
 		padding-top: 72px;
 	}
 
@@ -191,6 +191,14 @@
 	.swiper-slide .container {
 		@include widther(992px) {
 			padding-top: 10px;
+		}
+
+		@include media-query(991px) {
+			margin-top: -40px;
+		}
+
+		@include media-query(767px) {
+			margin-top: -60px;
 		}
 	}
 }
